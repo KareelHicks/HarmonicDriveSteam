@@ -1,0 +1,235 @@
+[gd_scene format=3 uid="uid://duttklxfodpg7"]
+
+[ext_resource type="Script" uid="uid://clgqqnxkofc2e" path="res://scenes/menus/SongSelectMenu.gd" id="1"]
+
+[node name="SongSelectMenu" type="Control" unique_id=1819777185]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="ColorRect" parent="." unique_id=1623847222]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.03, 0.04, 0.12, 1)
+
+[node name="Margin" type="MarginContainer" parent="." unique_id=1430406759]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="VBox" type="VBoxContainer" parent="Margin" unique_id=912453373]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="HeaderBar" type="HBoxContainer" parent="Margin/VBox" unique_id=1449167658]
+layout_mode = 2
+
+[node name="BackButton" type="Button" parent="Margin/VBox/HeaderBar" unique_id=1763431718]
+unique_name_in_owner = true
+layout_mode = 2
+flat = true
+
+[node name="BackLabel" type="Label" parent="Margin/VBox/HeaderBar/BackButton" unique_id=434773784]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 120.0
+offset_bottom = 20.0
+text = "← BACK"
+
+[node name="HeaderSpacer" type="Control" parent="Margin/VBox/HeaderBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="LoadoutButton" type="Button" parent="Margin/VBox/HeaderBar"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "LOADOUTS"
+
+[node name="TitleBox" type="VBoxContainer" parent="Margin/VBox" unique_id=1233034063]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="TitleLabel" type="Label" parent="Margin/VBox/TitleBox" unique_id=1647128158]
+unique_name_in_owner = true
+layout_mode = 2
+text = "SELECT A TRACK"
+horizontal_alignment = 1
+
+[node name="SubtitleLabel" type="Label" parent="Margin/VBox/TitleBox" unique_id=642229880]
+unique_name_in_owner = true
+layout_mode = 2
+text = "0 SONGS"
+horizontal_alignment = 1
+
+[node name="StatusLabel" type="Label" parent="Margin/VBox/TitleBox" unique_id=159844654]
+unique_name_in_owner = true
+layout_mode = 2
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="SearchField" type="LineEdit" parent="Margin/VBox/TitleBox" unique_id=1796974874]
+unique_name_in_owner = true
+layout_mode = 2
+placeholder_text = "Search songs"
+clear_button_enabled = true
+
+[node name="Divider" type="ColorRect" parent="Margin/VBox" unique_id=516766078]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 1)
+layout_mode = 2
+color = Color(0.15, 0.82, 1, 0.3)
+
+[node name="BodyHBox" type="HBoxContainer" parent="Margin/VBox" unique_id=1179577516]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 18
+
+[node name="ListScroll" type="ScrollContainer" parent="Margin/VBox/BodyHBox" unique_id=162152168]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="RowsVBox" type="VBoxContainer" parent="Margin/VBox/BodyHBox/ListScroll" unique_id=927313878]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 12
+
+[node name="DetailPanel" type="PanelContainer" parent="Margin/VBox/BodyHBox" unique_id=599173166]
+unique_name_in_owner = true
+visible = false
+custom_minimum_size = Vector2(340, 0)
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="DetailMargin" type="MarginContainer" parent="Margin/VBox/BodyHBox/DetailPanel" unique_id=369338765]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="DetailVBox" type="VBoxContainer" parent="Margin/VBox/BodyHBox/DetailPanel/DetailMargin" unique_id=1647932856]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="SongTitleLabel" type="Label" parent="Margin/VBox/BodyHBox/DetailPanel/DetailMargin/DetailVBox" unique_id=1600528356]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Song"
+
+[node name="SongArtistLabel" type="Label" parent="Margin/VBox/BodyHBox/DetailPanel/DetailMargin/DetailVBox" unique_id=434742056]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Artist"
+
+[node name="SongMetaLabel" type="Label" parent="Margin/VBox/BodyHBox/DetailPanel/DetailMargin/DetailVBox" unique_id=1846310958]
+unique_name_in_owner = true
+layout_mode = 2
+autowrap_mode = 3
+
+[node name="DifficultyOption" type="OptionButton" parent="Margin/VBox/BodyHBox/DetailPanel/DetailMargin/DetailVBox" unique_id=1543346761]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="BestScoreLabel" type="Label" parent="Margin/VBox/BodyHBox/DetailPanel/DetailMargin/DetailVBox" unique_id=1841783926]
+unique_name_in_owner = true
+layout_mode = 2
+text = "BEST SCORE: none"
+
+[node name="StartButton" type="Button" parent="Margin/VBox/BodyHBox/DetailPanel/DetailMargin/DetailVBox" unique_id=885357432]
+unique_name_in_owner = true
+layout_mode = 2
+text = "START SONG"
+
+[node name="UnlockButton" type="Button" parent="Margin/VBox/BodyHBox/DetailPanel/DetailMargin/DetailVBox" unique_id=1504759536]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "UNLOCK TRACK"
+
+[node name="OverlayDim" type="ColorRect" parent="." unique_id=869884576]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="SelectionCenter" type="CenterContainer" parent="." unique_id=1193496475]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="SelectionPanel" type="PanelContainer" parent="SelectionCenter" unique_id=1514010939]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="SelectionMargin" type="MarginContainer" parent="SelectionCenter/SelectionPanel" unique_id=775937334]
+layout_mode = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24
+
+[node name="SelectionVBox" type="VBoxContainer" parent="SelectionCenter/SelectionPanel/SelectionMargin" unique_id=1719896807]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="SelectionTitleLabel" type="Label" parent="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox" unique_id=1684736923]
+unique_name_in_owner = true
+layout_mode = 2
+text = "SELECT MODE"
+horizontal_alignment = 1
+
+[node name="SelectionSubtitleLabel" type="Label" parent="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox" unique_id=1091900619]
+unique_name_in_owner = true
+layout_mode = 2
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="SelectionButtons" type="VBoxContainer" parent="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox" unique_id=938947021]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="SelectionCancelButton" type="Button" parent="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox/SelectionButtons" unique_id=1112609441]
+unique_name_in_owner = true
+layout_mode = 2
+text = "CANCEL"
+
+[connection signal="pressed" from="Margin/VBox/HeaderBar/BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="Margin/VBox/HeaderBar/LoadoutButton" to="." method="_on_loadout_button_pressed"]
+[connection signal="text_changed" from="Margin/VBox/TitleBox/SearchField" to="." method="_on_search_field_text_changed"]
+[connection signal="text_submitted" from="Margin/VBox/TitleBox/SearchField" to="." method="_on_search_field_text_submitted"]
+[connection signal="item_selected" from="Margin/VBox/BodyHBox/DetailPanel/DetailMargin/DetailVBox/DifficultyOption" to="." method="_on_difficulty_option_item_selected"]
+[connection signal="pressed" from="Margin/VBox/BodyHBox/DetailPanel/DetailMargin/DetailVBox/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="Margin/VBox/BodyHBox/DetailPanel/DetailMargin/DetailVBox/UnlockButton" to="." method="_on_unlock_button_pressed"]
+[connection signal="pressed" from="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox/SelectionButtons/SelectionCancelButton" to="." method="_on_selection_cancel_button_pressed"]

@@ -1,0 +1,441 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scenes/menus/LocalSongsMenu.gd" id="1"]
+
+[node name="LocalSongsMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="ColorRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.03, 0.04, 0.12, 1)
+
+[node name="Margin" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="VBox" type="VBoxContainer" parent="Margin"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="HeaderBar" type="HBoxContainer" parent="Margin/VBox"]
+layout_mode = 2
+
+[node name="BackButton" type="Button" parent="Margin/VBox/HeaderBar"]
+unique_name_in_owner = true
+layout_mode = 2
+flat = true
+
+[node name="BackLabel" type="Label" parent="Margin/VBox/HeaderBar/BackButton"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 120.0
+offset_bottom = 20.0
+text = "← BACK"
+
+[node name="HeaderSpacer" type="Control" parent="Margin/VBox/HeaderBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="LoadoutButton" type="Button" parent="Margin/VBox/HeaderBar"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "LOADOUTS"
+
+[node name="ImportButton" type="Button" parent="Margin/VBox/HeaderBar"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "IMPORT SONG"
+
+[node name="ImportToMainGameButton" type="Button" parent="Margin/VBox/HeaderBar"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "IMPORT TO MAIN GAME"
+
+[node name="LinkAudioButton" type="Button" parent="Margin/VBox/HeaderBar"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "LINK AUDIO"
+
+[node name="RemoveCommunityChartButton" type="Button" parent="Margin/VBox/HeaderBar"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "REMOVE CHART"
+tooltip_text = "Remove Community Chart"
+
+[node name="ImportInfoButton" type="Button" parent="Margin/VBox/HeaderBar"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "ⓘ"
+tooltip_text = "How to import songs"
+
+[node name="TitleBox" type="VBoxContainer" parent="Margin/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="TitleLabel" type="Label" parent="Margin/VBox/TitleBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "LOCAL SONGS"
+horizontal_alignment = 1
+
+[node name="SubtitleLabel" type="Label" parent="Margin/VBox/TitleBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "0 SONGS"
+horizontal_alignment = 1
+
+[node name="StatusLabel" type="Label" parent="Margin/VBox/TitleBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = ""
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="SearchField" type="LineEdit" parent="Margin/VBox/TitleBox"]
+unique_name_in_owner = true
+layout_mode = 2
+placeholder_text = "Search local songs"
+clear_button_enabled = true
+
+[node name="Divider" type="ColorRect" parent="Margin/VBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 1)
+layout_mode = 2
+color = Color(0.15, 0.82, 1, 0.3)
+
+[node name="BodyHBox" type="HBoxContainer" parent="Margin/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 18
+
+[node name="ListScroll" type="ScrollContainer" parent="Margin/VBox/BodyHBox"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="RowsVBox" type="VBoxContainer" parent="Margin/VBox/BodyHBox/ListScroll"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 12
+
+[node name="OverlayDim" type="ColorRect" parent="."]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="SelectionCenter" type="CenterContainer" parent="."]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="InfoCenter" type="CenterContainer" parent="."]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="InfoPanel" type="PanelContainer" parent="InfoCenter"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="InfoMargin" type="MarginContainer" parent="InfoCenter/InfoPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24
+
+[node name="InfoVBox" type="VBoxContainer" parent="InfoCenter/InfoPanel/InfoMargin"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="InfoTitleLabel" type="Label" parent="InfoCenter/InfoPanel/InfoMargin/InfoVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "INFO"
+horizontal_alignment = 1
+
+[node name="InfoScroll" type="ScrollContainer" parent="InfoCenter/InfoPanel/InfoMargin/InfoVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="InfoScrollMargin" type="MarginContainer" parent="InfoCenter/InfoPanel/InfoMargin/InfoVBox/InfoScroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 4
+
+[node name="InfoTextLabel" type="Label" parent="InfoCenter/InfoPanel/InfoMargin/InfoVBox/InfoScroll/InfoScrollMargin"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+text = ""
+autowrap_mode = 3
+
+[node name="InfoButtons" type="HBoxContainer" parent="InfoCenter/InfoPanel/InfoMargin/InfoVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="InfoButtonsSpacer" type="Control" parent="InfoCenter/InfoPanel/InfoMargin/InfoVBox/InfoButtons"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="InfoCloseButton" type="Button" parent="InfoCenter/InfoPanel/InfoMargin/InfoVBox/InfoButtons"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "CLOSE"
+
+[node name="SelectionPanel" type="PanelContainer" parent="SelectionCenter"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="SelectionMargin" type="MarginContainer" parent="SelectionCenter/SelectionPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24
+
+[node name="SelectionVBox" type="VBoxContainer" parent="SelectionCenter/SelectionPanel/SelectionMargin"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="SelectionTitleLabel" type="Label" parent="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "SELECT DIFFICULTY"
+horizontal_alignment = 1
+
+[node name="SelectionSubtitleLabel" type="Label" parent="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = ""
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="SelectionButtons" type="VBoxContainer" parent="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="SelectionCancelButton" type="Button" parent="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox/SelectionButtons"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "CANCEL"
+
+[node name="EditorMessageDialog" type="AcceptDialog" parent="."]
+unique_name_in_owner = true
+title = "Local Songs"
+
+[node name="ImportFolderDialog" type="FileDialog" parent="."]
+unique_name_in_owner = true
+file_mode = 2
+access = 2
+title = "Select Song Folder"
+
+[node name="LinkAudioFileDialog" type="FileDialog" parent="."]
+unique_name_in_owner = true
+file_mode = 0
+access = 2
+title = "Select Audio File"
+
+[node name="ProjectNameDialog" type="ConfirmationDialog" parent="."]
+unique_name_in_owner = true
+title = "New Project Name"
+ok_button_text = "Create"
+
+[node name="ProjectNameMargin" type="MarginContainer" parent="ProjectNameDialog"]
+layout_mode = 2
+theme_override_constants/margin_left = 14
+theme_override_constants/margin_top = 14
+theme_override_constants/margin_right = 14
+theme_override_constants/margin_bottom = 14
+
+[node name="ProjectNameVBox" type="VBoxContainer" parent="ProjectNameDialog/ProjectNameMargin"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="ProjectNameLabel" type="Label" parent="ProjectNameDialog/ProjectNameMargin/ProjectNameVBox"]
+layout_mode = 2
+text = "Project folder name (created in user://custom_songs/)"
+
+[node name="ProjectNameEdit" type="LineEdit" parent="ProjectNameDialog/ProjectNameMargin/ProjectNameVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+placeholder_text = "my_song_project"
+
+[node name="ImportWizardDialog" type="ConfirmationDialog" parent="."]
+unique_name_in_owner = true
+title = "Import Chart"
+ok_button_text = "Import"
+
+[node name="ImportWizardScroll" type="ScrollContainer" parent="ImportWizardDialog"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(700, 460)
+horizontal_scroll_mode = 0
+
+[node name="ImportWizardMargin" type="MarginContainer" parent="ImportWizardDialog/ImportWizardScroll"]
+layout_mode = 2
+theme_override_constants/margin_left = 14
+theme_override_constants/margin_top = 14
+theme_override_constants/margin_right = 14
+theme_override_constants/margin_bottom = 14
+
+[node name="ImportWizardVBox" type="VBoxContainer" parent="ImportWizardDialog/ImportWizardScroll/ImportWizardMargin"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="ImportFileLabel" type="Label" parent="ImportWizardDialog/ImportWizardScroll/ImportWizardMargin/ImportWizardVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Import file"
+
+[node name="ImportFileOption" type="OptionButton" parent="ImportWizardDialog/ImportWizardScroll/ImportWizardMargin/ImportWizardVBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(360, 0)
+layout_mode = 2
+
+[node name="ImportSourceLabel" type="Label" parent="ImportWizardDialog/ImportWizardScroll/ImportWizardMargin/ImportWizardVBox"]
+layout_mode = 2
+text = "Source chart"
+
+[node name="ImportSourceOption" type="OptionButton" parent="ImportWizardDialog/ImportWizardScroll/ImportWizardMargin/ImportWizardVBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(360, 0)
+layout_mode = 2
+
+[node name="ImportAudioLabel" type="Label" parent="ImportWizardDialog/ImportWizardScroll/ImportWizardMargin/ImportWizardVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Linked audio"
+
+[node name="ImportAudioOption" type="OptionButton" parent="ImportWizardDialog/ImportWizardScroll/ImportWizardMargin/ImportWizardVBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(360, 0)
+layout_mode = 2
+
+[node name="ImportDifficultyLabel" type="Label" parent="ImportWizardDialog/ImportWizardScroll/ImportWizardMargin/ImportWizardVBox"]
+layout_mode = 2
+text = "Target Harmonic Drive difficulty"
+
+[node name="ImportDifficultyOption" type="OptionButton" parent="ImportWizardDialog/ImportWizardScroll/ImportWizardMargin/ImportWizardVBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+
+[node name="ImportWarningLabel" type="Label" parent="ImportWizardDialog/ImportWizardScroll/ImportWizardMargin/ImportWizardVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Importing overwrites only the selected target difficulty."
+autowrap_mode = 2
+
+[node name="LoadingOverlay" type="ColorRect" parent="."]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+color = Color(0, 0, 0, 0.45)
+
+[node name="LoadingCenter" type="CenterContainer" parent="LoadingOverlay"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="LoadingPanel" type="PanelContainer" parent="LoadingOverlay/LoadingCenter"]
+custom_minimum_size = Vector2(460, 0)
+layout_mode = 2
+
+[node name="LoadingMargin" type="MarginContainer" parent="LoadingOverlay/LoadingCenter/LoadingPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="LoadingVBox" type="VBoxContainer" parent="LoadingOverlay/LoadingCenter/LoadingPanel/LoadingMargin"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="LoadingTitleLabel" type="Label" parent="LoadingOverlay/LoadingCenter/LoadingPanel/LoadingMargin/LoadingVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Loading…"
+horizontal_alignment = 1
+
+[node name="LoadingStatusLabel" type="Label" parent="LoadingOverlay/LoadingCenter/LoadingPanel/LoadingMargin/LoadingVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = ""
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[connection signal="pressed" from="Margin/VBox/HeaderBar/BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="Margin/VBox/HeaderBar/LoadoutButton" to="." method="_on_loadout_button_pressed"]
+[connection signal="pressed" from="Margin/VBox/HeaderBar/ImportButton" to="." method="_on_import_button_pressed"]
+[connection signal="pressed" from="Margin/VBox/HeaderBar/ImportToMainGameButton" to="." method="_on_import_to_main_game_button_pressed"]
+[connection signal="pressed" from="Margin/VBox/HeaderBar/LinkAudioButton" to="." method="_on_link_audio_button_pressed"]
+[connection signal="pressed" from="Margin/VBox/HeaderBar/RemoveCommunityChartButton" to="." method="_on_remove_community_chart_button_pressed"]
+[connection signal="pressed" from="Margin/VBox/HeaderBar/ImportInfoButton" to="." method="_on_import_info_button_pressed"]
+[connection signal="pressed" from="InfoCenter/InfoPanel/InfoMargin/InfoVBox/InfoButtons/InfoCloseButton" to="." method="_on_info_close_button_pressed"]
+[connection signal="pressed" from="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox/SelectionButtons/SelectionCancelButton" to="." method="_on_selection_cancel_button_pressed"]
+[connection signal="text_changed" from="Margin/VBox/TitleBox/SearchField" to="." method="_on_search_field_text_changed"]
+[connection signal="text_submitted" from="Margin/VBox/TitleBox/SearchField" to="." method="_on_search_field_text_submitted"]
+[connection signal="dir_selected" from="ImportFolderDialog" to="." method="_on_import_folder_selected"]
+[connection signal="file_selected" from="LinkAudioFileDialog" to="." method="_on_link_audio_file_selected"]
+[connection signal="confirmed" from="ProjectNameDialog" to="." method="_on_project_name_confirmed"]
+[connection signal="confirmed" from="ImportWizardDialog" to="." method="_on_import_wizard_confirmed"]

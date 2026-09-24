@@ -1,0 +1,546 @@
+{
+  "sections": [
+	{
+	  "id": 1,
+	  "songs": [
+		"galactic_afterimage",
+		"soul_s_slowly_dying",
+		"no_one",
+        "loop_until_dawn"
+	  ],
+	  "unlock_requirement": 2,
+	  "min_note_count": 526,
+	  "max_note_count": 665
+	},
+	{
+	  "id": 2,
+	  "songs": [
+		"persevere",
+		"we_were_infinite",
+		"locked_in_phase",
+        "dreamstate_protocol"
+	  ],
+	  "unlock_requirement": 2,
+	  "min_note_count": 718,
+	  "max_note_count": 790
+	},
+	{
+	  "id": 3,
+	  "songs": [
+		"midnight_vibes",
+		"static_in_the_dark",
+		"sublevel_motion",
+        "no_sleep_unit"
+	  ],
+	  "unlock_requirement": 2,
+	  "min_note_count": 829,
+	  "max_note_count": 896
+	},
+	{
+	  "id": 4,
+	  "songs": [
+		"open_skies",
+		"solar_drift",
+		"i_found_your_name_inside_a_notebook",
+        "fades_away"
+	  ],
+	  "unlock_requirement": 2,
+	  "min_note_count": 902,
+	  "max_note_count": 955
+	},
+	{
+	  "id": 5,
+	  "songs": [
+		"peak_transmission",
+		"afterglow_drive",
+		"i_won_t_last_you",
+        "peak_pressure"
+	  ],
+	  "unlock_requirement": 2,
+	  "min_note_count": 980,
+	  "max_note_count": 1076
+	},
+	{
+	  "id": 6,
+	  "songs": [
+		"rave_signal",
+		"sunny",
+		"neon_horizon",
+        "fade_into_forever"
+	  ],
+	  "unlock_requirement": 2,
+	  "min_note_count": 1084,
+	  "max_note_count": 1145
+	},
+	{
+	  "id": 7,
+	  "songs": [
+		"velocity_of_light",
+		"skyline_motion",
+		"say_you_didnt_mean_it_v1",
+        "nothing_left_to_save_v1"
+	  ],
+	  "unlock_requirement": 2,
+	  "min_note_count": 1165,
+	  "max_note_count": 1237
+	},
+	{
+	  "id": 8,
+	  "songs": [
+		"hold_on_to_the_light",
+		"astral_raver",
+		"flowing_emotions",
+        "innerself_v1"
+	  ],
+	  "unlock_requirement": 2,
+	  "min_note_count": 1238,
+	  "max_note_count": 1335
+	},
+	{
+	  "id": 9,
+	  "songs": [
+		"beyond_the_pulse",
+		"between_the_moments",
+		"i_learned_how_to_smile_without_you",
+        "i_still_choose_you"
+	  ],
+	  "unlock_requirement": 2,
+	  "min_note_count": 1336,
+	  "max_note_count": 1381
+	},
+	{
+	  "id": 10,
+	  "songs": [
+		"cosmic_accelerator",
+		"i_ve_been_running_through_the_silence",
+		"echoes_of_the_infinite",
+        "vocal_null"
+	  ],
+	  "unlock_requirement": 2,
+	  "min_note_count": 1390,
+	  "max_note_count": 1445
+	},
+	{
+	  "id": 11,
+	  "songs": [
+		"say_it",
+		"right_now",
+		"repetition_is_truth",
+        "distant_reflections"
+	  ],
+	  "unlock_requirement": 2,
+	  "min_note_count": 1483,
+	  "max_note_count": 1521
+	},
+	{
+	  "id": 12,
+	  "songs": [
+		"i_don_t_remember_how_i_got_here_v1",
+		"innerself_v2",
+		"space_drift",
+        "if_you_never_come_back"
+	  ],
+	  "unlock_requirement": 2,
+	  "min_note_count": 1523,
+	  "max_note_count": 1554
+	},
+	{
+	  "id": 13,
+	  "songs": [
+		"event_horizon_dancefloor",
+		"lost_in_trance",
+		"lightwalk",
+        "arcway"
+	  ],
+	  "unlock_requirement": 2,
+	  "min_note_count": 1592,
+	  "max_note_count": 1614
+	},
+	{
+	  "id": 14,
+	  "songs": [
+		"we_should_let_go",
+		"i_can_feel_it_in_the_silence",
+		"tenacity",
+        "where_we_used_to_dance"
+	  ],
+	  "unlock_requirement": 2,
+	  "min_note_count": 1672,
+	  "max_note_count": 1946
+	},
+	{
+	  "id": 15,
+	  "songs": [
+		"i_forgot_the_sound_of_you",
+		"i_can_t_pretend_i_m_fine",
+		"dimension_of_joy",
+        "awaken_the_horizon"
+	  ],
+	  "unlock_requirement": 2,
+	  "min_note_count": 2065,
+	  "max_note_count": 2294
+	}
+  ],
+  "songs": {
+	"galactic_afterimage": {
+	  "section_id": 1,
+	  "professional_note_count": 526,
+	  "display_name": "Galactic Afterimage",
+	  "is_premium": false
+	},
+	"soul_s_slowly_dying": {
+	  "section_id": 1,
+	  "professional_note_count": 589,
+	  "display_name": "Soul's Slowly Dying",
+	  "is_premium": false
+	},
+	"no_one": {
+	  "section_id": 1,
+	  "professional_note_count": 640,
+	  "display_name": "No One",
+	  "is_premium": false
+	},
+	"loop_until_dawn": {
+	  "section_id": 1,
+	  "professional_note_count": 665,
+	  "display_name": "Loop Until Dawn",
+	  "is_premium": false
+	},
+	"persevere": {
+	  "section_id": 2,
+	  "professional_note_count": 718,
+	  "display_name": "Persevere",
+	  "is_premium": false
+	},
+	"we_were_infinite": {
+	  "section_id": 2,
+	  "professional_note_count": 718,
+	  "display_name": "We Were Infinite",
+	  "is_premium": false
+	},
+	"locked_in_phase": {
+	  "section_id": 2,
+	  "professional_note_count": 728,
+	  "display_name": "Locked in Phase",
+	  "is_premium": false
+	},
+	"dreamstate_protocol": {
+	  "section_id": 2,
+	  "professional_note_count": 790,
+	  "display_name": "Dreamstate Protocol",
+	  "is_premium": false
+	},
+	"midnight_vibes": {
+	  "section_id": 3,
+	  "professional_note_count": 829,
+	  "display_name": "Midnight Vibes",
+	  "is_premium": false
+	},
+	"static_in_the_dark": {
+	  "section_id": 3,
+	  "professional_note_count": 851,
+	  "display_name": "Static in the Dark",
+	  "is_premium": false
+	},
+	"sublevel_motion": {
+	  "section_id": 3,
+	  "professional_note_count": 864,
+	  "display_name": "Sublevel Motion",
+	  "is_premium": false
+	},
+	"no_sleep_unit": {
+	  "section_id": 3,
+	  "professional_note_count": 896,
+	  "display_name": "No Sleep Unit",
+	  "is_premium": false
+	},
+	"open_skies": {
+	  "section_id": 4,
+	  "professional_note_count": 902,
+	  "display_name": "Open Skies",
+	  "is_premium": false
+	},
+	"solar_drift": {
+	  "section_id": 4,
+	  "professional_note_count": 923,
+	  "display_name": "Solar Drift",
+	  "is_premium": false
+	},
+	"i_found_your_name_inside_a_notebook": {
+	  "section_id": 4,
+	  "professional_note_count": 930,
+	  "display_name": "I Found Your Name Inside A Notebook",
+	  "is_premium": false
+	},
+	"fades_away": {
+	  "section_id": 4,
+	  "professional_note_count": 955,
+	  "display_name": "Fades Away",
+	  "is_premium": false
+	},
+	"peak_transmission": {
+	  "section_id": 5,
+	  "professional_note_count": 980,
+	  "display_name": "Peak Transmission",
+	  "is_premium": false
+	},
+	"afterglow_drive": {
+	  "section_id": 5,
+	  "professional_note_count": 993,
+	  "display_name": "Afterglow Drive",
+	  "is_premium": false
+	},
+	"i_won_t_last_you": {
+	  "section_id": 5,
+	  "professional_note_count": 998,
+	  "display_name": "I Won't Last You",
+	  "is_premium": false
+	},
+	"peak_pressure": {
+	  "section_id": 5,
+	  "professional_note_count": 1076,
+	  "display_name": "Peak Pressure",
+	  "is_premium": false
+	},
+	"rave_signal": {
+	  "section_id": 6,
+	  "professional_note_count": 1084,
+	  "display_name": "Rave Signal",
+	  "is_premium": false
+	},
+	"sunny": {
+	  "section_id": 6,
+	  "professional_note_count": 1094,
+	  "display_name": "Sunny",
+	  "is_premium": false
+	},
+	"neon_horizon": {
+	  "section_id": 6,
+	  "professional_note_count": 1140,
+	  "display_name": "Neon Horizon",
+	  "is_premium": false
+	},
+	"fade_into_forever": {
+	  "section_id": 6,
+	  "professional_note_count": 1145,
+	  "display_name": "Fade Into Forever",
+	  "is_premium": false
+	},
+	"velocity_of_light": {
+	  "section_id": 7,
+	  "professional_note_count": 1165,
+	  "display_name": "Velocity of Light",
+	  "is_premium": false
+	},
+	"skyline_motion": {
+	  "section_id": 7,
+	  "professional_note_count": 1179,
+	  "display_name": "Skyline Motion",
+	  "is_premium": false
+	},
+	"say_you_didnt_mean_it_v1": {
+	  "section_id": 7,
+	  "professional_note_count": 1194,
+	  "display_name": "Say You Didnt Mean It v1",
+	  "is_premium": false
+	},
+	"nothing_left_to_save_v1": {
+	  "section_id": 7,
+	  "professional_note_count": 1237,
+	  "display_name": "Nothing Left To Save v1",
+	  "is_premium": false
+	},
+	"hold_on_to_the_light": {
+	  "section_id": 8,
+	  "professional_note_count": 1238,
+	  "display_name": "Hold On To the Light",
+	  "is_premium": false
+	},
+	"astral_raver": {
+	  "section_id": 8,
+	  "professional_note_count": 1241,
+	  "display_name": "Astral Raver",
+	  "is_premium": false
+	},
+	"flowing_emotions": {
+	  "section_id": 8,
+	  "professional_note_count": 1273,
+	  "display_name": "Flowing Emotions",
+	  "is_premium": false
+	},
+	"innerself_v1": {
+	  "section_id": 8,
+	  "professional_note_count": 1335,
+	  "display_name": "Innerself v1",
+	  "is_premium": false
+	},
+	"beyond_the_pulse": {
+	  "section_id": 9,
+	  "professional_note_count": 1336,
+	  "display_name": "Beyond the Pulse",
+	  "is_premium": false
+	},
+	"between_the_moments": {
+	  "section_id": 9,
+	  "professional_note_count": 1344,
+	  "display_name": "Between the Moments",
+	  "is_premium": false
+	},
+	"i_learned_how_to_smile_without_you": {
+	  "section_id": 9,
+	  "professional_note_count": 1359,
+	  "display_name": "I Learned How to Smile Without You",
+	  "is_premium": false
+	},
+	"i_still_choose_you": {
+	  "section_id": 9,
+	  "professional_note_count": 1381,
+	  "display_name": "I Still Choose You",
+	  "is_premium": false
+	},
+	"cosmic_accelerator": {
+	  "section_id": 10,
+	  "professional_note_count": 1390,
+	  "display_name": "Cosmic Accelerator",
+	  "is_premium": false
+	},
+	"i_ve_been_running_through_the_silence": {
+	  "section_id": 10,
+	  "professional_note_count": 1393,
+	  "display_name": "I've Been Running Through the Silence",
+	  "is_premium": false
+	},
+	"echoes_of_the_infinite": {
+	  "section_id": 10,
+	  "professional_note_count": 1417,
+	  "display_name": "Echoes of the Infinite",
+	  "is_premium": false
+	},
+	"vocal_null": {
+	  "section_id": 10,
+	  "professional_note_count": 1445,
+	  "display_name": "Vocal Null",
+	  "is_premium": false
+	},
+	"say_it": {
+	  "section_id": 11,
+	  "professional_note_count": 1483,
+	  "display_name": "Say It",
+	  "is_premium": false
+	},
+	"right_now": {
+	  "section_id": 11,
+	  "professional_note_count": 1487,
+	  "display_name": "Right Now",
+	  "is_premium": false
+	},
+	"repetition_is_truth": {
+	  "section_id": 11,
+	  "professional_note_count": 1507,
+	  "display_name": "Repetition Is Truth",
+	  "is_premium": false
+	},
+	"distant_reflections": {
+	  "section_id": 11,
+	  "professional_note_count": 1521,
+	  "display_name": "Distant Reflections",
+	  "is_premium": false
+	},
+	"i_don_t_remember_how_i_got_here_v1": {
+	  "section_id": 12,
+	  "professional_note_count": 1523,
+	  "display_name": "I Don't Remember How I Got Here v1",
+	  "is_premium": false
+	},
+	"innerself_v2": {
+	  "section_id": 12,
+	  "professional_note_count": 1540,
+	  "display_name": "Innerself v2",
+	  "is_premium": false
+	},
+	"space_drift": {
+	  "section_id": 12,
+	  "professional_note_count": 1545,
+	  "display_name": "Space Drift",
+	  "is_premium": false
+	},
+	"if_you_never_come_back": {
+	  "section_id": 12,
+	  "professional_note_count": 1554,
+	  "display_name": "If You Never Come Back",
+	  "is_premium": false
+	},
+	"event_horizon_dancefloor": {
+	  "section_id": 13,
+	  "professional_note_count": 1592,
+	  "display_name": "Event Horizon Dancefloor",
+	  "is_premium": false
+	},
+	"lost_in_trance": {
+	  "section_id": 13,
+	  "professional_note_count": 1593,
+	  "display_name": "Lost In Trance",
+	  "is_premium": false
+	},
+	"lightwalk": {
+	  "section_id": 13,
+	  "professional_note_count": 1602,
+	  "display_name": "Lightwalk",
+	  "is_premium": false
+	},
+	"arcway": {
+	  "section_id": 13,
+	  "professional_note_count": 1614,
+	  "display_name": "Arcway",
+	  "is_premium": false
+	},
+	"we_should_let_go": {
+	  "section_id": 14,
+	  "professional_note_count": 1672,
+	  "display_name": "We Should Let Go",
+	  "is_premium": false
+	},
+	"i_can_feel_it_in_the_silence": {
+	  "section_id": 14,
+	  "professional_note_count": 1840,
+	  "display_name": "I Can Feel It In the Silence",
+	  "is_premium": false
+	},
+	"tenacity": {
+	  "section_id": 14,
+	  "professional_note_count": 1842,
+	  "display_name": "Tenacity",
+	  "is_premium": false
+	},
+	"where_we_used_to_dance": {
+	  "section_id": 14,
+	  "professional_note_count": 1946,
+	  "display_name": "Where We Used To Dance",
+	  "is_premium": false
+	},
+	"i_forgot_the_sound_of_you": {
+	  "section_id": 15,
+	  "professional_note_count": 2065,
+	  "display_name": "I Forgot The Sound of You",
+	  "is_premium": false
+	},
+	"i_can_t_pretend_i_m_fine": {
+	  "section_id": 15,
+	  "professional_note_count": 2115,
+	  "display_name": "I Can't Pretend I'm Fine",
+	  "is_premium": false
+	},
+	"dimension_of_joy": {
+	  "section_id": 15,
+	  "professional_note_count": 2189,
+	  "display_name": "Dimension of Joy",
+	  "is_premium": false
+	},
+	"awaken_the_horizon": {
+	  "section_id": 15,
+	  "professional_note_count": 2294,
+	  "display_name": "Awaken the Horizon",
+	  "is_premium": false
+	}
+  }
+}

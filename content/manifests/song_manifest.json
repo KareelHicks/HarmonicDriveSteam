@@ -1,0 +1,3325 @@
+[
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/afterglow_drive.ogg",
+		"bpm": 142.4,
+		"chart_base_name": "Afterglow Drive",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Afterglow Drive",
+		"id": "afterglow_drive",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/afterglow_drive_easy.json",
+					"Expert": "res://content/charts/stems_mapped/afterglow_drive_expert.json",
+					"Hard": "res://content/charts/stems_mapped/afterglow_drive_hard.json",
+					"Medium": "res://content/charts/stems_mapped/afterglow_drive_medium.json",
+					"Professional": "res://content/charts/stems_mapped/afterglow_drive_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/afterglow_drive_easy.json",
+					"Expert": "res://content/charts/stems_random/afterglow_drive_expert.json",
+					"Hard": "res://content/charts/stems_random/afterglow_drive_hard.json",
+					"Medium": "res://content/charts/stems_random/afterglow_drive_medium.json",
+					"Professional": "res://content/charts/stems_random/afterglow_drive_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/afterglow_drive_easy.json",
+					"Expert": "res://content/charts/synthesized/afterglow_drive_expert.json",
+					"Hard": "res://content/charts/synthesized/afterglow_drive_hard.json",
+					"Medium": "res://content/charts/synthesized/afterglow_drive_medium.json",
+					"Professional": "res://content/charts/synthesized/afterglow_drive_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/arcway.ogg",
+		"bpm": 125.0,
+		"chart_base_name": "Arcway",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Arcway",
+		"id": "arcway",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/arcway_easy.json",
+					"Expert": "res://content/charts/stems_mapped/arcway_expert.json",
+					"Hard": "res://content/charts/stems_mapped/arcway_hard.json",
+					"Medium": "res://content/charts/stems_mapped/arcway_medium.json",
+					"Professional": "res://content/charts/stems_mapped/arcway_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/arcway_easy.json",
+					"Expert": "res://content/charts/stems_random/arcway_expert.json",
+					"Hard": "res://content/charts/stems_random/arcway_hard.json",
+					"Medium": "res://content/charts/stems_random/arcway_medium.json",
+					"Professional": "res://content/charts/stems_random/arcway_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/arcway_easy.json",
+					"Expert": "res://content/charts/synthesized/arcway_expert.json",
+					"Hard": "res://content/charts/synthesized/arcway_hard.json",
+					"Medium": "res://content/charts/synthesized/arcway_medium.json",
+					"Professional": "res://content/charts/synthesized/arcway_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/astral_raver.ogg",
+		"bpm": 150.0,
+		"chart_base_name": "Astral Raver",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Astral Raver",
+		"id": "astral_raver",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/astral_raver_easy.json",
+					"Expert": "res://content/charts/stems_mapped/astral_raver_expert.json",
+					"Hard": "res://content/charts/stems_mapped/astral_raver_hard.json",
+					"Medium": "res://content/charts/stems_mapped/astral_raver_medium.json",
+					"Professional": "res://content/charts/stems_mapped/astral_raver_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/astral_raver_easy.json",
+					"Expert": "res://content/charts/stems_random/astral_raver_expert.json",
+					"Hard": "res://content/charts/stems_random/astral_raver_hard.json",
+					"Medium": "res://content/charts/stems_random/astral_raver_medium.json",
+					"Professional": "res://content/charts/stems_random/astral_raver_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/astral_raver_easy.json",
+					"Expert": "res://content/charts/synthesized/astral_raver_expert.json",
+					"Hard": "res://content/charts/synthesized/astral_raver_hard.json",
+					"Medium": "res://content/charts/synthesized/astral_raver_medium.json",
+					"Professional": "res://content/charts/synthesized/astral_raver_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/awaken_the_horizon.ogg",
+		"bpm": 125.0,
+		"chart_base_name": "Awaken the Horizon",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Awaken the Horizon",
+		"id": "awaken_the_horizon",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/awaken_the_horizon_easy.json",
+					"Expert": "res://content/charts/stems_mapped/awaken_the_horizon_expert.json",
+					"Hard": "res://content/charts/stems_mapped/awaken_the_horizon_hard.json",
+					"Medium": "res://content/charts/stems_mapped/awaken_the_horizon_medium.json",
+					"Professional": "res://content/charts/stems_mapped/awaken_the_horizon_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/awaken_the_horizon_easy.json",
+					"Expert": "res://content/charts/stems_random/awaken_the_horizon_expert.json",
+					"Hard": "res://content/charts/stems_random/awaken_the_horizon_hard.json",
+					"Medium": "res://content/charts/stems_random/awaken_the_horizon_medium.json",
+					"Professional": "res://content/charts/stems_random/awaken_the_horizon_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/awaken_the_horizon_easy.json",
+					"Expert": "res://content/charts/synthesized/awaken_the_horizon_expert.json",
+					"Hard": "res://content/charts/synthesized/awaken_the_horizon_hard.json",
+					"Medium": "res://content/charts/synthesized/awaken_the_horizon_medium.json",
+					"Professional": "res://content/charts/synthesized/awaken_the_horizon_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/between_the_moments.ogg",
+		"bpm": 116.0,
+		"chart_base_name": "Between the Moments",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Between the Moments",
+		"id": "between_the_moments",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/between_the_moments_easy.json",
+					"Expert": "res://content/charts/stems_mapped/between_the_moments_expert.json",
+					"Hard": "res://content/charts/stems_mapped/between_the_moments_hard.json",
+					"Medium": "res://content/charts/stems_mapped/between_the_moments_medium.json",
+					"Professional": "res://content/charts/stems_mapped/between_the_moments_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/between_the_moments_easy.json",
+					"Expert": "res://content/charts/stems_random/between_the_moments_expert.json",
+					"Hard": "res://content/charts/stems_random/between_the_moments_hard.json",
+					"Medium": "res://content/charts/stems_random/between_the_moments_medium.json",
+					"Professional": "res://content/charts/stems_random/between_the_moments_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/between_the_moments_easy.json",
+					"Expert": "res://content/charts/synthesized/between_the_moments_expert.json",
+					"Hard": "res://content/charts/synthesized/between_the_moments_hard.json",
+					"Medium": "res://content/charts/synthesized/between_the_moments_medium.json",
+					"Professional": "res://content/charts/synthesized/between_the_moments_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/beyond_the_pulse.ogg",
+		"bpm": 125.0,
+		"chart_base_name": "Beyond the Pulse",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Beyond the Pulse",
+		"id": "beyond_the_pulse",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/beyond_the_pulse_easy.json",
+					"Expert": "res://content/charts/stems_mapped/beyond_the_pulse_expert.json",
+					"Hard": "res://content/charts/stems_mapped/beyond_the_pulse_hard.json",
+					"Medium": "res://content/charts/stems_mapped/beyond_the_pulse_medium.json",
+					"Professional": "res://content/charts/stems_mapped/beyond_the_pulse_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/beyond_the_pulse_easy.json",
+					"Expert": "res://content/charts/stems_random/beyond_the_pulse_expert.json",
+					"Hard": "res://content/charts/stems_random/beyond_the_pulse_hard.json",
+					"Medium": "res://content/charts/stems_random/beyond_the_pulse_medium.json",
+					"Professional": "res://content/charts/stems_random/beyond_the_pulse_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/beyond_the_pulse_easy.json",
+					"Expert": "res://content/charts/synthesized/beyond_the_pulse_expert.json",
+					"Hard": "res://content/charts/synthesized/beyond_the_pulse_hard.json",
+					"Medium": "res://content/charts/synthesized/beyond_the_pulse_medium.json",
+					"Professional": "res://content/charts/synthesized/beyond_the_pulse_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/cosmic_accelerator.ogg",
+		"bpm": 144.2,
+		"chart_base_name": "Cosmic Accelerator",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Cosmic Accelerator",
+		"id": "cosmic_accelerator",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/cosmic_accelerator_easy.json",
+					"Expert": "res://content/charts/stems_mapped/cosmic_accelerator_expert.json",
+					"Hard": "res://content/charts/stems_mapped/cosmic_accelerator_hard.json",
+					"Medium": "res://content/charts/stems_mapped/cosmic_accelerator_medium.json",
+					"Professional": "res://content/charts/stems_mapped/cosmic_accelerator_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/cosmic_accelerator_easy.json",
+					"Expert": "res://content/charts/stems_random/cosmic_accelerator_expert.json",
+					"Hard": "res://content/charts/stems_random/cosmic_accelerator_hard.json",
+					"Medium": "res://content/charts/stems_random/cosmic_accelerator_medium.json",
+					"Professional": "res://content/charts/stems_random/cosmic_accelerator_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/cosmic_accelerator_easy.json",
+					"Expert": "res://content/charts/synthesized/cosmic_accelerator_expert.json",
+					"Hard": "res://content/charts/synthesized/cosmic_accelerator_hard.json",
+					"Medium": "res://content/charts/synthesized/cosmic_accelerator_medium.json",
+					"Professional": "res://content/charts/synthesized/cosmic_accelerator_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/dimension_of_joy.ogg",
+		"bpm": 116.0,
+		"chart_base_name": "Dimension of Joy",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Dimension of Joy",
+		"id": "dimension_of_joy",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/dimension_of_joy_easy.json",
+					"Expert": "res://content/charts/stems_mapped/dimension_of_joy_expert.json",
+					"Hard": "res://content/charts/stems_mapped/dimension_of_joy_hard.json",
+					"Medium": "res://content/charts/stems_mapped/dimension_of_joy_medium.json",
+					"Professional": "res://content/charts/stems_mapped/dimension_of_joy_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/dimension_of_joy_easy.json",
+					"Expert": "res://content/charts/stems_random/dimension_of_joy_expert.json",
+					"Hard": "res://content/charts/stems_random/dimension_of_joy_hard.json",
+					"Medium": "res://content/charts/stems_random/dimension_of_joy_medium.json",
+					"Professional": "res://content/charts/stems_random/dimension_of_joy_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/dimension_of_joy_easy.json",
+					"Expert": "res://content/charts/synthesized/dimension_of_joy_expert.json",
+					"Hard": "res://content/charts/synthesized/dimension_of_joy_hard.json",
+					"Medium": "res://content/charts/synthesized/dimension_of_joy_medium.json",
+					"Professional": "res://content/charts/synthesized/dimension_of_joy_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/distant_reflections.ogg",
+		"bpm": 114.8,
+		"chart_base_name": "Distant Reflections",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Distant Reflections",
+		"id": "distant_reflections",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/distant_reflections_easy.json",
+					"Expert": "res://content/charts/stems_mapped/distant_reflections_expert.json",
+					"Hard": "res://content/charts/stems_mapped/distant_reflections_hard.json",
+					"Medium": "res://content/charts/stems_mapped/distant_reflections_medium.json",
+					"Professional": "res://content/charts/stems_mapped/distant_reflections_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/distant_reflections_easy.json",
+					"Expert": "res://content/charts/stems_random/distant_reflections_expert.json",
+					"Hard": "res://content/charts/stems_random/distant_reflections_hard.json",
+					"Medium": "res://content/charts/stems_random/distant_reflections_medium.json",
+					"Professional": "res://content/charts/stems_random/distant_reflections_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/distant_reflections_easy.json",
+					"Expert": "res://content/charts/synthesized/distant_reflections_expert.json",
+					"Hard": "res://content/charts/synthesized/distant_reflections_hard.json",
+					"Medium": "res://content/charts/synthesized/distant_reflections_medium.json",
+					"Professional": "res://content/charts/synthesized/distant_reflections_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/dreamstate_protocol.ogg",
+		"bpm": 150.0,
+		"chart_base_name": "Dreamstate Protocol",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Dreamstate Protocol",
+		"id": "dreamstate_protocol",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/dreamstate_protocol_easy.json",
+					"Expert": "res://content/charts/stems_mapped/dreamstate_protocol_expert.json",
+					"Hard": "res://content/charts/stems_mapped/dreamstate_protocol_hard.json",
+					"Medium": "res://content/charts/stems_mapped/dreamstate_protocol_medium.json",
+					"Professional": "res://content/charts/stems_mapped/dreamstate_protocol_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/dreamstate_protocol_easy.json",
+					"Expert": "res://content/charts/stems_random/dreamstate_protocol_expert.json",
+					"Hard": "res://content/charts/stems_random/dreamstate_protocol_hard.json",
+					"Medium": "res://content/charts/stems_random/dreamstate_protocol_medium.json",
+					"Professional": "res://content/charts/stems_random/dreamstate_protocol_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/dreamstate_protocol_easy.json",
+					"Expert": "res://content/charts/synthesized/dreamstate_protocol_expert.json",
+					"Hard": "res://content/charts/synthesized/dreamstate_protocol_hard.json",
+					"Medium": "res://content/charts/synthesized/dreamstate_protocol_medium.json",
+					"Professional": "res://content/charts/synthesized/dreamstate_protocol_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/echoes_of_the_infinite.ogg",
+		"bpm": 126.4,
+		"chart_base_name": "Echoes of the Infinite",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Echoes of the Infinite",
+		"id": "echoes_of_the_infinite",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/echoes_of_the_infinite_easy.json",
+					"Expert": "res://content/charts/stems_mapped/echoes_of_the_infinite_expert.json",
+					"Hard": "res://content/charts/stems_mapped/echoes_of_the_infinite_hard.json",
+					"Medium": "res://content/charts/stems_mapped/echoes_of_the_infinite_medium.json",
+					"Professional": "res://content/charts/stems_mapped/echoes_of_the_infinite_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/echoes_of_the_infinite_easy.json",
+					"Expert": "res://content/charts/stems_random/echoes_of_the_infinite_expert.json",
+					"Hard": "res://content/charts/stems_random/echoes_of_the_infinite_hard.json",
+					"Medium": "res://content/charts/stems_random/echoes_of_the_infinite_medium.json",
+					"Professional": "res://content/charts/stems_random/echoes_of_the_infinite_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/echoes_of_the_infinite_easy.json",
+					"Expert": "res://content/charts/synthesized/echoes_of_the_infinite_expert.json",
+					"Hard": "res://content/charts/synthesized/echoes_of_the_infinite_hard.json",
+					"Medium": "res://content/charts/synthesized/echoes_of_the_infinite_medium.json",
+					"Professional": "res://content/charts/synthesized/echoes_of_the_infinite_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/event_horizon_dancefloor.ogg",
+		"bpm": 150.0,
+		"chart_base_name": "Event Horizon Dancefloor",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Event Horizon Dancefloor",
+		"id": "event_horizon_dancefloor",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/event_horizon_dancefloor_easy.json",
+					"Expert": "res://content/charts/stems_mapped/event_horizon_dancefloor_expert.json",
+					"Hard": "res://content/charts/stems_mapped/event_horizon_dancefloor_hard.json",
+					"Medium": "res://content/charts/stems_mapped/event_horizon_dancefloor_medium.json",
+					"Professional": "res://content/charts/stems_mapped/event_horizon_dancefloor_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/event_horizon_dancefloor_easy.json",
+					"Expert": "res://content/charts/stems_random/event_horizon_dancefloor_expert.json",
+					"Hard": "res://content/charts/stems_random/event_horizon_dancefloor_hard.json",
+					"Medium": "res://content/charts/stems_random/event_horizon_dancefloor_medium.json",
+					"Professional": "res://content/charts/stems_random/event_horizon_dancefloor_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/event_horizon_dancefloor_easy.json",
+					"Expert": "res://content/charts/synthesized/event_horizon_dancefloor_expert.json",
+					"Hard": "res://content/charts/synthesized/event_horizon_dancefloor_hard.json",
+					"Medium": "res://content/charts/synthesized/event_horizon_dancefloor_medium.json",
+					"Professional": "res://content/charts/synthesized/event_horizon_dancefloor_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/fade_into_forever.ogg",
+		"bpm": 129.3,
+		"chart_base_name": "Fade Into Forever",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Fade Into Forever",
+		"id": "fade_into_forever",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/fade_into_forever_easy.json",
+					"Expert": "res://content/charts/stems_mapped/fade_into_forever_expert.json",
+					"Hard": "res://content/charts/stems_mapped/fade_into_forever_hard.json",
+					"Medium": "res://content/charts/stems_mapped/fade_into_forever_medium.json",
+					"Professional": "res://content/charts/stems_mapped/fade_into_forever_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/fade_into_forever_easy.json",
+					"Expert": "res://content/charts/stems_random/fade_into_forever_expert.json",
+					"Hard": "res://content/charts/stems_random/fade_into_forever_hard.json",
+					"Medium": "res://content/charts/stems_random/fade_into_forever_medium.json",
+					"Professional": "res://content/charts/stems_random/fade_into_forever_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/fade_into_forever_easy.json",
+					"Expert": "res://content/charts/synthesized/fade_into_forever_expert.json",
+					"Hard": "res://content/charts/synthesized/fade_into_forever_hard.json",
+					"Medium": "res://content/charts/synthesized/fade_into_forever_medium.json",
+					"Professional": "res://content/charts/synthesized/fade_into_forever_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/fades_away.ogg",
+		"bpm": 104.2,
+		"chart_base_name": "Fades Away",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Fades Away",
+		"id": "fades_away",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/fades_away_easy.json",
+					"Expert": "res://content/charts/stems_mapped/fades_away_expert.json",
+					"Hard": "res://content/charts/stems_mapped/fades_away_hard.json",
+					"Medium": "res://content/charts/stems_mapped/fades_away_medium.json",
+					"Professional": "res://content/charts/stems_mapped/fades_away_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/fades_away_easy.json",
+					"Expert": "res://content/charts/stems_random/fades_away_expert.json",
+					"Hard": "res://content/charts/stems_random/fades_away_hard.json",
+					"Medium": "res://content/charts/stems_random/fades_away_medium.json",
+					"Professional": "res://content/charts/stems_random/fades_away_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/fades_away_easy.json",
+					"Expert": "res://content/charts/synthesized/fades_away_expert.json",
+					"Hard": "res://content/charts/synthesized/fades_away_hard.json",
+					"Medium": "res://content/charts/synthesized/fades_away_medium.json",
+					"Professional": "res://content/charts/synthesized/fades_away_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/flowing_emotions.ogg",
+		"bpm": 114.8,
+		"chart_base_name": "Flowing Emotions",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Flowing Emotions",
+		"id": "flowing_emotions",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/flowing_emotions_easy.json",
+					"Expert": "res://content/charts/stems_mapped/flowing_emotions_expert.json",
+					"Hard": "res://content/charts/stems_mapped/flowing_emotions_hard.json",
+					"Medium": "res://content/charts/stems_mapped/flowing_emotions_medium.json",
+					"Professional": "res://content/charts/stems_mapped/flowing_emotions_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/flowing_emotions_easy.json",
+					"Expert": "res://content/charts/stems_random/flowing_emotions_expert.json",
+					"Hard": "res://content/charts/stems_random/flowing_emotions_hard.json",
+					"Medium": "res://content/charts/stems_random/flowing_emotions_medium.json",
+					"Professional": "res://content/charts/stems_random/flowing_emotions_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/flowing_emotions_easy.json",
+					"Expert": "res://content/charts/synthesized/flowing_emotions_expert.json",
+					"Hard": "res://content/charts/synthesized/flowing_emotions_hard.json",
+					"Medium": "res://content/charts/synthesized/flowing_emotions_medium.json",
+					"Professional": "res://content/charts/synthesized/flowing_emotions_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/galactic_afterimage.ogg",
+		"bpm": 148.0,
+		"chart_base_name": "Galactic Afterimage",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Galactic Afterimage",
+		"id": "galactic_afterimage",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/galactic_afterimage_easy.json",
+					"Expert": "res://content/charts/stems_mapped/galactic_afterimage_expert.json",
+					"Hard": "res://content/charts/stems_mapped/galactic_afterimage_hard.json",
+					"Medium": "res://content/charts/stems_mapped/galactic_afterimage_medium.json",
+					"Professional": "res://content/charts/stems_mapped/galactic_afterimage_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/galactic_afterimage_easy.json",
+					"Expert": "res://content/charts/stems_random/galactic_afterimage_expert.json",
+					"Hard": "res://content/charts/stems_random/galactic_afterimage_hard.json",
+					"Medium": "res://content/charts/stems_random/galactic_afterimage_medium.json",
+					"Professional": "res://content/charts/stems_random/galactic_afterimage_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/galactic_afterimage_easy.json",
+					"Expert": "res://content/charts/synthesized/galactic_afterimage_expert.json",
+					"Hard": "res://content/charts/synthesized/galactic_afterimage_hard.json",
+					"Medium": "res://content/charts/synthesized/galactic_afterimage_medium.json",
+					"Professional": "res://content/charts/synthesized/galactic_afterimage_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/hold_on_to_the_light.ogg",
+		"bpm": 132.4,
+		"chart_base_name": "Hold On To the Light",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Hold On To the Light",
+		"id": "hold_on_to_the_light",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/hold_on_to_the_light_easy.json",
+					"Expert": "res://content/charts/stems_mapped/hold_on_to_the_light_expert.json",
+					"Hard": "res://content/charts/stems_mapped/hold_on_to_the_light_hard.json",
+					"Medium": "res://content/charts/stems_mapped/hold_on_to_the_light_medium.json",
+					"Professional": "res://content/charts/stems_mapped/hold_on_to_the_light_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/hold_on_to_the_light_easy.json",
+					"Expert": "res://content/charts/stems_random/hold_on_to_the_light_expert.json",
+					"Hard": "res://content/charts/stems_random/hold_on_to_the_light_hard.json",
+					"Medium": "res://content/charts/stems_random/hold_on_to_the_light_medium.json",
+					"Professional": "res://content/charts/stems_random/hold_on_to_the_light_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/hold_on_to_the_light_easy.json",
+					"Expert": "res://content/charts/synthesized/hold_on_to_the_light_expert.json",
+					"Hard": "res://content/charts/synthesized/hold_on_to_the_light_hard.json",
+					"Medium": "res://content/charts/synthesized/hold_on_to_the_light_medium.json",
+					"Professional": "res://content/charts/synthesized/hold_on_to_the_light_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/i_can_feel_it_in_the_silence.ogg",
+		"bpm": 113.6,
+		"chart_base_name": "I Can Feel It In the Silence",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "I Can Feel It In the Silence",
+		"id": "i_can_feel_it_in_the_silence",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/i_can_feel_it_in_the_silence_easy.json",
+					"Expert": "res://content/charts/stems_mapped/i_can_feel_it_in_the_silence_expert.json",
+					"Hard": "res://content/charts/stems_mapped/i_can_feel_it_in_the_silence_hard.json",
+					"Medium": "res://content/charts/stems_mapped/i_can_feel_it_in_the_silence_medium.json",
+					"Professional": "res://content/charts/stems_mapped/i_can_feel_it_in_the_silence_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/i_can_feel_it_in_the_silence_easy.json",
+					"Expert": "res://content/charts/stems_random/i_can_feel_it_in_the_silence_expert.json",
+					"Hard": "res://content/charts/stems_random/i_can_feel_it_in_the_silence_hard.json",
+					"Medium": "res://content/charts/stems_random/i_can_feel_it_in_the_silence_medium.json",
+					"Professional": "res://content/charts/stems_random/i_can_feel_it_in_the_silence_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/i_can_feel_it_in_the_silence_easy.json",
+					"Expert": "res://content/charts/synthesized/i_can_feel_it_in_the_silence_expert.json",
+					"Hard": "res://content/charts/synthesized/i_can_feel_it_in_the_silence_hard.json",
+					"Medium": "res://content/charts/synthesized/i_can_feel_it_in_the_silence_medium.json",
+					"Professional": "res://content/charts/synthesized/i_can_feel_it_in_the_silence_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/i_can_t_pretend_i_m_fine.ogg",
+		"bpm": 120.0,
+		"chart_base_name": "I Can't Pretend I'm Fine",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "I Can't Pretend I'm Fine",
+		"id": "i_can_t_pretend_i_m_fine",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/i_can_t_pretend_i_m_fine_easy.json",
+					"Expert": "res://content/charts/stems_mapped/i_can_t_pretend_i_m_fine_expert.json",
+					"Hard": "res://content/charts/stems_mapped/i_can_t_pretend_i_m_fine_hard.json",
+					"Medium": "res://content/charts/stems_mapped/i_can_t_pretend_i_m_fine_medium.json",
+					"Professional": "res://content/charts/stems_mapped/i_can_t_pretend_i_m_fine_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/i_can_t_pretend_i_m_fine_easy.json",
+					"Expert": "res://content/charts/stems_random/i_can_t_pretend_i_m_fine_expert.json",
+					"Hard": "res://content/charts/stems_random/i_can_t_pretend_i_m_fine_hard.json",
+					"Medium": "res://content/charts/stems_random/i_can_t_pretend_i_m_fine_medium.json",
+					"Professional": "res://content/charts/stems_random/i_can_t_pretend_i_m_fine_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/i_can_t_pretend_i_m_fine_easy.json",
+					"Expert": "res://content/charts/synthesized/i_can_t_pretend_i_m_fine_expert.json",
+					"Hard": "res://content/charts/synthesized/i_can_t_pretend_i_m_fine_hard.json",
+					"Medium": "res://content/charts/synthesized/i_can_t_pretend_i_m_fine_medium.json",
+					"Professional": "res://content/charts/synthesized/i_can_t_pretend_i_m_fine_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/i_don_t_remember_how_i_got_here_v1.ogg",
+		"bpm": 132.35,
+		"chart_base_name": "I Don't Remember How I Got Here v1",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "I Don't Remember How I Got Here v1",
+		"id": "i_don_t_remember_how_i_got_here_v1",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/i_don_t_remember_how_i_got_here_v1_easy.json",
+					"Expert": "res://content/charts/stems_mapped/i_don_t_remember_how_i_got_here_v1_expert.json",
+					"Hard": "res://content/charts/stems_mapped/i_don_t_remember_how_i_got_here_v1_hard.json",
+					"Medium": "res://content/charts/stems_mapped/i_don_t_remember_how_i_got_here_v1_medium.json",
+					"Professional": "res://content/charts/stems_mapped/i_don_t_remember_how_i_got_here_v1_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/i_don_t_remember_how_i_got_here_v1_easy.json",
+					"Expert": "res://content/charts/stems_random/i_don_t_remember_how_i_got_here_v1_expert.json",
+					"Hard": "res://content/charts/stems_random/i_don_t_remember_how_i_got_here_v1_hard.json",
+					"Medium": "res://content/charts/stems_random/i_don_t_remember_how_i_got_here_v1_medium.json",
+					"Professional": "res://content/charts/stems_random/i_don_t_remember_how_i_got_here_v1_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/i_don_t_remember_how_i_got_here_v1_easy.json",
+					"Expert": "res://content/charts/synthesized/i_don_t_remember_how_i_got_here_v1_expert.json",
+					"Hard": "res://content/charts/synthesized/i_don_t_remember_how_i_got_here_v1_hard.json",
+					"Medium": "res://content/charts/synthesized/i_don_t_remember_how_i_got_here_v1_medium.json",
+					"Professional": "res://content/charts/synthesized/i_don_t_remember_how_i_got_here_v1_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/i_forgot_the_sound_of_you.ogg",
+		"bpm": 139.53488372093,
+		"chart_base_name": "I Forgot The Sound of You",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "I Forgot The Sound of You",
+		"id": "i_forgot_the_sound_of_you",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/i_forgot_the_sound_of_you_easy.json",
+					"Expert": "res://content/charts/stems_mapped/i_forgot_the_sound_of_you_expert.json",
+					"Hard": "res://content/charts/stems_mapped/i_forgot_the_sound_of_you_hard.json",
+					"Medium": "res://content/charts/stems_mapped/i_forgot_the_sound_of_you_medium.json",
+					"Professional": "res://content/charts/stems_mapped/i_forgot_the_sound_of_you_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/i_forgot_the_sound_of_you_easy.json",
+					"Expert": "res://content/charts/stems_random/i_forgot_the_sound_of_you_expert.json",
+					"Hard": "res://content/charts/stems_random/i_forgot_the_sound_of_you_hard.json",
+					"Medium": "res://content/charts/stems_random/i_forgot_the_sound_of_you_medium.json",
+					"Professional": "res://content/charts/stems_random/i_forgot_the_sound_of_you_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/i_forgot_the_sound_of_you_easy.json",
+					"Expert": "res://content/charts/synthesized/i_forgot_the_sound_of_you_expert.json",
+					"Hard": "res://content/charts/synthesized/i_forgot_the_sound_of_you_hard.json",
+					"Medium": "res://content/charts/synthesized/i_forgot_the_sound_of_you_medium.json",
+					"Professional": "res://content/charts/synthesized/i_forgot_the_sound_of_you_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/i_found_your_name_inside_a_notebook.ogg",
+		"bpm": 138.9,
+		"chart_base_name": "I Found Your Name Inside A Notebook",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "I Found Your Name Inside A Notebook",
+		"id": "i_found_your_name_inside_a_notebook",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/i_found_your_name_inside_a_notebook_easy.json",
+					"Expert": "res://content/charts/stems_mapped/i_found_your_name_inside_a_notebook_expert.json",
+					"Hard": "res://content/charts/stems_mapped/i_found_your_name_inside_a_notebook_hard.json",
+					"Medium": "res://content/charts/stems_mapped/i_found_your_name_inside_a_notebook_medium.json",
+					"Professional": "res://content/charts/stems_mapped/i_found_your_name_inside_a_notebook_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/i_found_your_name_inside_a_notebook_easy.json",
+					"Expert": "res://content/charts/stems_random/i_found_your_name_inside_a_notebook_expert.json",
+					"Hard": "res://content/charts/stems_random/i_found_your_name_inside_a_notebook_hard.json",
+					"Medium": "res://content/charts/stems_random/i_found_your_name_inside_a_notebook_medium.json",
+					"Professional": "res://content/charts/stems_random/i_found_your_name_inside_a_notebook_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/i_found_your_name_inside_a_notebook_easy.json",
+					"Expert": "res://content/charts/synthesized/i_found_your_name_inside_a_notebook_expert.json",
+					"Hard": "res://content/charts/synthesized/i_found_your_name_inside_a_notebook_hard.json",
+					"Medium": "res://content/charts/synthesized/i_found_your_name_inside_a_notebook_medium.json",
+					"Professional": "res://content/charts/synthesized/i_found_your_name_inside_a_notebook_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/i_learned_how_to_smile_without_you.ogg",
+		"bpm": 93.8,
+		"chart_base_name": "I Learned How to Smile Without You",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "I Learned How to Smile Without You",
+		"id": "i_learned_how_to_smile_without_you",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/i_learned_how_to_smile_without_you_easy.json",
+					"Expert": "res://content/charts/stems_mapped/i_learned_how_to_smile_without_you_expert.json",
+					"Hard": "res://content/charts/stems_mapped/i_learned_how_to_smile_without_you_hard.json",
+					"Medium": "res://content/charts/stems_mapped/i_learned_how_to_smile_without_you_medium.json",
+					"Professional": "res://content/charts/stems_mapped/i_learned_how_to_smile_without_you_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/i_learned_how_to_smile_without_you_easy.json",
+					"Expert": "res://content/charts/stems_random/i_learned_how_to_smile_without_you_expert.json",
+					"Hard": "res://content/charts/stems_random/i_learned_how_to_smile_without_you_hard.json",
+					"Medium": "res://content/charts/stems_random/i_learned_how_to_smile_without_you_medium.json",
+					"Professional": "res://content/charts/stems_random/i_learned_how_to_smile_without_you_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/i_learned_how_to_smile_without_you_easy.json",
+					"Expert": "res://content/charts/synthesized/i_learned_how_to_smile_without_you_expert.json",
+					"Hard": "res://content/charts/synthesized/i_learned_how_to_smile_without_you_hard.json",
+					"Medium": "res://content/charts/synthesized/i_learned_how_to_smile_without_you_medium.json",
+					"Professional": "res://content/charts/synthesized/i_learned_how_to_smile_without_you_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/i_still_choose_you.ogg",
+		"bpm": 127.8,
+		"chart_base_name": "I Still Choose You",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "I Still Choose You",
+		"id": "i_still_choose_you",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/i_still_choose_you_easy.json",
+					"Expert": "res://content/charts/stems_mapped/i_still_choose_you_expert.json",
+					"Hard": "res://content/charts/stems_mapped/i_still_choose_you_hard.json",
+					"Medium": "res://content/charts/stems_mapped/i_still_choose_you_medium.json",
+					"Professional": "res://content/charts/stems_mapped/i_still_choose_you_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/i_still_choose_you_easy.json",
+					"Expert": "res://content/charts/stems_random/i_still_choose_you_expert.json",
+					"Hard": "res://content/charts/stems_random/i_still_choose_you_hard.json",
+					"Medium": "res://content/charts/stems_random/i_still_choose_you_medium.json",
+					"Professional": "res://content/charts/stems_random/i_still_choose_you_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/i_still_choose_you_easy.json",
+					"Expert": "res://content/charts/synthesized/i_still_choose_you_expert.json",
+					"Hard": "res://content/charts/synthesized/i_still_choose_you_hard.json",
+					"Medium": "res://content/charts/synthesized/i_still_choose_you_medium.json",
+					"Professional": "res://content/charts/synthesized/i_still_choose_you_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/i_won_t_last_you.ogg",
+		"bpm": 137.2,
+		"chart_base_name": "I Won't Last You",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "I Won't Last You",
+		"id": "i_won_t_last_you",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/i_won_t_last_you_easy.json",
+					"Expert": "res://content/charts/stems_mapped/i_won_t_last_you_expert.json",
+					"Hard": "res://content/charts/stems_mapped/i_won_t_last_you_hard.json",
+					"Medium": "res://content/charts/stems_mapped/i_won_t_last_you_medium.json",
+					"Professional": "res://content/charts/stems_mapped/i_won_t_last_you_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/i_won_t_last_you_easy.json",
+					"Expert": "res://content/charts/stems_random/i_won_t_last_you_expert.json",
+					"Hard": "res://content/charts/stems_random/i_won_t_last_you_hard.json",
+					"Medium": "res://content/charts/stems_random/i_won_t_last_you_medium.json",
+					"Professional": "res://content/charts/stems_random/i_won_t_last_you_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/i_won_t_last_you_easy.json",
+					"Expert": "res://content/charts/synthesized/i_won_t_last_you_expert.json",
+					"Hard": "res://content/charts/synthesized/i_won_t_last_you_hard.json",
+					"Medium": "res://content/charts/synthesized/i_won_t_last_you_medium.json",
+					"Professional": "res://content/charts/synthesized/i_won_t_last_you_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/i_ve_been_running_through_the_silence.ogg",
+		"bpm": 132.4,
+		"chart_base_name": "I've Been Running Through the Silence",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "I've Been Running Through the Silence",
+		"id": "i_ve_been_running_through_the_silence",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/i_ve_been_running_through_the_silence_easy.json",
+					"Expert": "res://content/charts/stems_mapped/i_ve_been_running_through_the_silence_expert.json",
+					"Hard": "res://content/charts/stems_mapped/i_ve_been_running_through_the_silence_hard.json",
+					"Medium": "res://content/charts/stems_mapped/i_ve_been_running_through_the_silence_medium.json",
+					"Professional": "res://content/charts/stems_mapped/i_ve_been_running_through_the_silence_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/i_ve_been_running_through_the_silence_easy.json",
+					"Expert": "res://content/charts/stems_random/i_ve_been_running_through_the_silence_expert.json",
+					"Hard": "res://content/charts/stems_random/i_ve_been_running_through_the_silence_hard.json",
+					"Medium": "res://content/charts/stems_random/i_ve_been_running_through_the_silence_medium.json",
+					"Professional": "res://content/charts/stems_random/i_ve_been_running_through_the_silence_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/i_ve_been_running_through_the_silence_easy.json",
+					"Expert": "res://content/charts/synthesized/i_ve_been_running_through_the_silence_expert.json",
+					"Hard": "res://content/charts/synthesized/i_ve_been_running_through_the_silence_hard.json",
+					"Medium": "res://content/charts/synthesized/i_ve_been_running_through_the_silence_medium.json",
+					"Professional": "res://content/charts/synthesized/i_ve_been_running_through_the_silence_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/if_you_never_come_back.ogg",
+		"bpm": 120.0,
+		"chart_base_name": "If You Never Come Back",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "If You Never Come Back",
+		"id": "if_you_never_come_back",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/if_you_never_come_back_easy.json",
+					"Expert": "res://content/charts/stems_mapped/if_you_never_come_back_expert.json",
+					"Hard": "res://content/charts/stems_mapped/if_you_never_come_back_hard.json",
+					"Medium": "res://content/charts/stems_mapped/if_you_never_come_back_medium.json",
+					"Professional": "res://content/charts/stems_mapped/if_you_never_come_back_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/if_you_never_come_back_easy.json",
+					"Expert": "res://content/charts/stems_random/if_you_never_come_back_expert.json",
+					"Hard": "res://content/charts/stems_random/if_you_never_come_back_hard.json",
+					"Medium": "res://content/charts/stems_random/if_you_never_come_back_medium.json",
+					"Professional": "res://content/charts/stems_random/if_you_never_come_back_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/if_you_never_come_back_easy.json",
+					"Expert": "res://content/charts/synthesized/if_you_never_come_back_expert.json",
+					"Hard": "res://content/charts/synthesized/if_you_never_come_back_hard.json",
+					"Medium": "res://content/charts/synthesized/if_you_never_come_back_medium.json",
+					"Professional": "res://content/charts/synthesized/if_you_never_come_back_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/innerself_v1.ogg",
+		"bpm": 137.2,
+		"chart_base_name": "Innerself v1",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Innerself v1",
+		"id": "innerself_v1",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/innerself_v1_easy.json",
+					"Expert": "res://content/charts/stems_mapped/innerself_v1_expert.json",
+					"Hard": "res://content/charts/stems_mapped/innerself_v1_hard.json",
+					"Medium": "res://content/charts/stems_mapped/innerself_v1_medium.json",
+					"Professional": "res://content/charts/stems_mapped/innerself_v1_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/innerself_v1_easy.json",
+					"Expert": "res://content/charts/stems_random/innerself_v1_expert.json",
+					"Hard": "res://content/charts/stems_random/innerself_v1_hard.json",
+					"Medium": "res://content/charts/stems_random/innerself_v1_medium.json",
+					"Professional": "res://content/charts/stems_random/innerself_v1_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/innerself_v1_easy.json",
+					"Expert": "res://content/charts/synthesized/innerself_v1_expert.json",
+					"Hard": "res://content/charts/synthesized/innerself_v1_hard.json",
+					"Medium": "res://content/charts/synthesized/innerself_v1_medium.json",
+					"Professional": "res://content/charts/synthesized/innerself_v1_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/innerself_v2.ogg",
+		"bpm": 137.2,
+		"chart_base_name": "Innerself v2",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Innerself v2",
+		"id": "innerself_v2",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/innerself_v2_easy.json",
+					"Expert": "res://content/charts/stems_mapped/innerself_v2_expert.json",
+					"Hard": "res://content/charts/stems_mapped/innerself_v2_hard.json",
+					"Medium": "res://content/charts/stems_mapped/innerself_v2_medium.json",
+					"Professional": "res://content/charts/stems_mapped/innerself_v2_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/innerself_v2_easy.json",
+					"Expert": "res://content/charts/stems_random/innerself_v2_expert.json",
+					"Hard": "res://content/charts/stems_random/innerself_v2_hard.json",
+					"Medium": "res://content/charts/stems_random/innerself_v2_medium.json",
+					"Professional": "res://content/charts/stems_random/innerself_v2_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/innerself_v2_easy.json",
+					"Expert": "res://content/charts/synthesized/innerself_v2_expert.json",
+					"Hard": "res://content/charts/synthesized/innerself_v2_hard.json",
+					"Medium": "res://content/charts/synthesized/innerself_v2_medium.json",
+					"Professional": "res://content/charts/synthesized/innerself_v2_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/lightwalk.ogg",
+		"bpm": 114.8,
+		"chart_base_name": "Lightwalk",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Lightwalk",
+		"id": "lightwalk",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/lightwalk_easy.json",
+					"Expert": "res://content/charts/stems_mapped/lightwalk_expert.json",
+					"Hard": "res://content/charts/stems_mapped/lightwalk_hard.json",
+					"Medium": "res://content/charts/stems_mapped/lightwalk_medium.json",
+					"Professional": "res://content/charts/stems_mapped/lightwalk_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/lightwalk_easy.json",
+					"Expert": "res://content/charts/stems_random/lightwalk_expert.json",
+					"Hard": "res://content/charts/stems_random/lightwalk_hard.json",
+					"Medium": "res://content/charts/stems_random/lightwalk_medium.json",
+					"Professional": "res://content/charts/stems_random/lightwalk_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/lightwalk_easy.json",
+					"Expert": "res://content/charts/synthesized/lightwalk_expert.json",
+					"Hard": "res://content/charts/synthesized/lightwalk_hard.json",
+					"Medium": "res://content/charts/synthesized/lightwalk_medium.json",
+					"Professional": "res://content/charts/synthesized/lightwalk_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/locked_in_phase.ogg",
+		"bpm": 152.0,
+		"chart_base_name": "Locked in Phase",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Locked in Phase",
+		"id": "locked_in_phase",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/locked_in_phase_easy.json",
+					"Expert": "res://content/charts/stems_mapped/locked_in_phase_expert.json",
+					"Hard": "res://content/charts/stems_mapped/locked_in_phase_hard.json",
+					"Medium": "res://content/charts/stems_mapped/locked_in_phase_medium.json",
+					"Professional": "res://content/charts/stems_mapped/locked_in_phase_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/locked_in_phase_easy.json",
+					"Expert": "res://content/charts/stems_random/locked_in_phase_expert.json",
+					"Hard": "res://content/charts/stems_random/locked_in_phase_hard.json",
+					"Medium": "res://content/charts/stems_random/locked_in_phase_medium.json",
+					"Professional": "res://content/charts/stems_random/locked_in_phase_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/locked_in_phase_easy.json",
+					"Expert": "res://content/charts/synthesized/locked_in_phase_expert.json",
+					"Hard": "res://content/charts/synthesized/locked_in_phase_hard.json",
+					"Medium": "res://content/charts/synthesized/locked_in_phase_medium.json",
+					"Professional": "res://content/charts/synthesized/locked_in_phase_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/loop_until_dawn.ogg",
+		"bpm": 127.8,
+		"chart_base_name": "Loop Until Dawn",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Loop Until Dawn",
+		"id": "loop_until_dawn",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/loop_until_dawn_easy.json",
+					"Expert": "res://content/charts/stems_mapped/loop_until_dawn_expert.json",
+					"Hard": "res://content/charts/stems_mapped/loop_until_dawn_hard.json",
+					"Medium": "res://content/charts/stems_mapped/loop_until_dawn_medium.json",
+					"Professional": "res://content/charts/stems_mapped/loop_until_dawn_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/loop_until_dawn_easy.json",
+					"Expert": "res://content/charts/stems_random/loop_until_dawn_expert.json",
+					"Hard": "res://content/charts/stems_random/loop_until_dawn_hard.json",
+					"Medium": "res://content/charts/stems_random/loop_until_dawn_medium.json",
+					"Professional": "res://content/charts/stems_random/loop_until_dawn_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/loop_until_dawn_easy.json",
+					"Expert": "res://content/charts/synthesized/loop_until_dawn_expert.json",
+					"Hard": "res://content/charts/synthesized/loop_until_dawn_hard.json",
+					"Medium": "res://content/charts/synthesized/loop_until_dawn_medium.json",
+					"Professional": "res://content/charts/synthesized/loop_until_dawn_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/lost_in_trance.ogg",
+		"bpm": 114.8,
+		"chart_base_name": "Lost In Trance",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Lost In Trance",
+		"id": "lost_in_trance",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/lost_in_trance_easy.json",
+					"Expert": "res://content/charts/stems_mapped/lost_in_trance_expert.json",
+					"Hard": "res://content/charts/stems_mapped/lost_in_trance_hard.json",
+					"Medium": "res://content/charts/stems_mapped/lost_in_trance_medium.json",
+					"Professional": "res://content/charts/stems_mapped/lost_in_trance_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/lost_in_trance_easy.json",
+					"Expert": "res://content/charts/stems_random/lost_in_trance_expert.json",
+					"Hard": "res://content/charts/stems_random/lost_in_trance_hard.json",
+					"Medium": "res://content/charts/stems_random/lost_in_trance_medium.json",
+					"Professional": "res://content/charts/stems_random/lost_in_trance_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/lost_in_trance_easy.json",
+					"Expert": "res://content/charts/synthesized/lost_in_trance_expert.json",
+					"Hard": "res://content/charts/synthesized/lost_in_trance_hard.json",
+					"Medium": "res://content/charts/synthesized/lost_in_trance_medium.json",
+					"Professional": "res://content/charts/synthesized/lost_in_trance_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/midnight_vibes.ogg",
+		"bpm": 126.4,
+		"chart_base_name": "Midnight Vibes",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Midnight Vibes",
+		"id": "midnight_vibes",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/midnight_vibes_easy.json",
+					"Expert": "res://content/charts/stems_mapped/midnight_vibes_expert.json",
+					"Hard": "res://content/charts/stems_mapped/midnight_vibes_hard.json",
+					"Medium": "res://content/charts/stems_mapped/midnight_vibes_medium.json",
+					"Professional": "res://content/charts/stems_mapped/midnight_vibes_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/midnight_vibes_easy.json",
+					"Expert": "res://content/charts/stems_random/midnight_vibes_expert.json",
+					"Hard": "res://content/charts/stems_random/midnight_vibes_hard.json",
+					"Medium": "res://content/charts/stems_random/midnight_vibes_medium.json",
+					"Professional": "res://content/charts/stems_random/midnight_vibes_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/midnight_vibes_easy.json",
+					"Expert": "res://content/charts/synthesized/midnight_vibes_expert.json",
+					"Hard": "res://content/charts/synthesized/midnight_vibes_hard.json",
+					"Medium": "res://content/charts/synthesized/midnight_vibes_medium.json",
+					"Professional": "res://content/charts/synthesized/midnight_vibes_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/neon_horizon.ogg",
+		"bpm": 140.62,
+		"chart_base_name": "Neon Horizon",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Neon Horizon",
+		"id": "neon_horizon",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/neon_horizon_easy.json",
+					"Expert": "res://content/charts/stems_mapped/neon_horizon_expert.json",
+					"Hard": "res://content/charts/stems_mapped/neon_horizon_hard.json",
+					"Medium": "res://content/charts/stems_mapped/neon_horizon_medium.json",
+					"Professional": "res://content/charts/stems_mapped/neon_horizon_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/neon_horizon_easy.json",
+					"Expert": "res://content/charts/stems_random/neon_horizon_expert.json",
+					"Hard": "res://content/charts/stems_random/neon_horizon_hard.json",
+					"Medium": "res://content/charts/stems_random/neon_horizon_medium.json",
+					"Professional": "res://content/charts/stems_random/neon_horizon_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/neon_horizon_easy.json",
+					"Expert": "res://content/charts/synthesized/neon_horizon_expert.json",
+					"Hard": "res://content/charts/synthesized/neon_horizon_hard.json",
+					"Medium": "res://content/charts/synthesized/neon_horizon_medium.json",
+					"Professional": "res://content/charts/synthesized/neon_horizon_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/no_one.ogg",
+		"bpm": 125.0,
+		"chart_base_name": "No One",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "No One",
+		"id": "no_one",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/no_one_easy.json",
+					"Expert": "res://content/charts/stems_mapped/no_one_expert.json",
+					"Hard": "res://content/charts/stems_mapped/no_one_hard.json",
+					"Medium": "res://content/charts/stems_mapped/no_one_medium.json",
+					"Professional": "res://content/charts/stems_mapped/no_one_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/no_one_easy.json",
+					"Expert": "res://content/charts/stems_random/no_one_expert.json",
+					"Hard": "res://content/charts/stems_random/no_one_hard.json",
+					"Medium": "res://content/charts/stems_random/no_one_medium.json",
+					"Professional": "res://content/charts/stems_random/no_one_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/no_one_easy.json",
+					"Expert": "res://content/charts/synthesized/no_one_expert.json",
+					"Hard": "res://content/charts/synthesized/no_one_hard.json",
+					"Medium": "res://content/charts/synthesized/no_one_medium.json",
+					"Professional": "res://content/charts/synthesized/no_one_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/no_sleep_unit.ogg",
+		"bpm": 152.0,
+		"chart_base_name": "No Sleep Unit",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "No Sleep Unit",
+		"id": "no_sleep_unit",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/no_sleep_unit_easy.json",
+					"Expert": "res://content/charts/stems_mapped/no_sleep_unit_expert.json",
+					"Hard": "res://content/charts/stems_mapped/no_sleep_unit_hard.json",
+					"Medium": "res://content/charts/stems_mapped/no_sleep_unit_medium.json",
+					"Professional": "res://content/charts/stems_mapped/no_sleep_unit_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/no_sleep_unit_easy.json",
+					"Expert": "res://content/charts/stems_random/no_sleep_unit_expert.json",
+					"Hard": "res://content/charts/stems_random/no_sleep_unit_hard.json",
+					"Medium": "res://content/charts/stems_random/no_sleep_unit_medium.json",
+					"Professional": "res://content/charts/stems_random/no_sleep_unit_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/no_sleep_unit_easy.json",
+					"Expert": "res://content/charts/synthesized/no_sleep_unit_expert.json",
+					"Hard": "res://content/charts/synthesized/no_sleep_unit_hard.json",
+					"Medium": "res://content/charts/synthesized/no_sleep_unit_medium.json",
+					"Professional": "res://content/charts/synthesized/no_sleep_unit_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Iatneh",
+		"audio_path": "res://content/audio/nobody_knows_i_m_falling_apart.ogg",
+		"bpm": 139.5,
+		"chart_base_name": "Nobody Knows I m Falling Apart",
+		"difficulties": [
+			"Professional"
+		],
+		"display_name": "Nobody Knows I m Falling Apart",
+		"id": "nobody_knows_i_m_falling_apart",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Professional": "res://content/charts/stems_mapped/nobody_knows_i_m_falling_apart_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/nothing_left_to_save_v1.ogg",
+		"bpm": 136.4,
+		"chart_base_name": "Nothing Left To Save v1",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Nothing Left To Save v1",
+		"id": "nothing_left_to_save_v1",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/nothing_left_to_save_v1_easy.json",
+					"Expert": "res://content/charts/stems_mapped/nothing_left_to_save_v1_expert.json",
+					"Hard": "res://content/charts/stems_mapped/nothing_left_to_save_v1_hard.json",
+					"Medium": "res://content/charts/stems_mapped/nothing_left_to_save_v1_medium.json",
+					"Professional": "res://content/charts/stems_mapped/nothing_left_to_save_v1_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/nothing_left_to_save_v1_easy.json",
+					"Expert": "res://content/charts/stems_random/nothing_left_to_save_v1_expert.json",
+					"Hard": "res://content/charts/stems_random/nothing_left_to_save_v1_hard.json",
+					"Medium": "res://content/charts/stems_random/nothing_left_to_save_v1_medium.json",
+					"Professional": "res://content/charts/stems_random/nothing_left_to_save_v1_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/nothing_left_to_save_v1_easy.json",
+					"Expert": "res://content/charts/synthesized/nothing_left_to_save_v1_expert.json",
+					"Hard": "res://content/charts/synthesized/nothing_left_to_save_v1_hard.json",
+					"Medium": "res://content/charts/synthesized/nothing_left_to_save_v1_medium.json",
+					"Professional": "res://content/charts/synthesized/nothing_left_to_save_v1_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/open_skies.ogg",
+		"bpm": 135.5,
+		"chart_base_name": "Open Skies",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Open Skies",
+		"id": "open_skies",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/open_skies_easy.json",
+					"Expert": "res://content/charts/stems_mapped/open_skies_expert.json",
+					"Hard": "res://content/charts/stems_mapped/open_skies_hard.json",
+					"Medium": "res://content/charts/stems_mapped/open_skies_medium.json",
+					"Professional": "res://content/charts/stems_mapped/open_skies_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/open_skies_easy.json",
+					"Expert": "res://content/charts/stems_random/open_skies_expert.json",
+					"Hard": "res://content/charts/stems_random/open_skies_hard.json",
+					"Medium": "res://content/charts/stems_random/open_skies_medium.json",
+					"Professional": "res://content/charts/stems_random/open_skies_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/open_skies_easy.json",
+					"Expert": "res://content/charts/synthesized/open_skies_expert.json",
+					"Hard": "res://content/charts/synthesized/open_skies_hard.json",
+					"Medium": "res://content/charts/synthesized/open_skies_medium.json",
+					"Professional": "res://content/charts/synthesized/open_skies_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/peak_pressure.ogg",
+		"bpm": 152.0,
+		"chart_base_name": "Peak Pressure",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Peak Pressure",
+		"id": "peak_pressure",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/peak_pressure_easy.json",
+					"Expert": "res://content/charts/stems_mapped/peak_pressure_expert.json",
+					"Hard": "res://content/charts/stems_mapped/peak_pressure_hard.json",
+					"Medium": "res://content/charts/stems_mapped/peak_pressure_medium.json",
+					"Professional": "res://content/charts/stems_mapped/peak_pressure_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/peak_pressure_easy.json",
+					"Expert": "res://content/charts/stems_random/peak_pressure_expert.json",
+					"Hard": "res://content/charts/stems_random/peak_pressure_hard.json",
+					"Medium": "res://content/charts/stems_random/peak_pressure_medium.json",
+					"Professional": "res://content/charts/stems_random/peak_pressure_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/peak_pressure_easy.json",
+					"Expert": "res://content/charts/synthesized/peak_pressure_expert.json",
+					"Hard": "res://content/charts/synthesized/peak_pressure_hard.json",
+					"Medium": "res://content/charts/synthesized/peak_pressure_medium.json",
+					"Professional": "res://content/charts/synthesized/peak_pressure_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/peak_transmission.ogg",
+		"bpm": 148.0,
+		"chart_base_name": "Peak Transmission",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Peak Transmission",
+		"id": "peak_transmission",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/peak_transmission_easy.json",
+					"Expert": "res://content/charts/stems_mapped/peak_transmission_expert.json",
+					"Hard": "res://content/charts/stems_mapped/peak_transmission_hard.json",
+					"Medium": "res://content/charts/stems_mapped/peak_transmission_medium.json",
+					"Professional": "res://content/charts/stems_mapped/peak_transmission_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/peak_transmission_easy.json",
+					"Expert": "res://content/charts/stems_random/peak_transmission_expert.json",
+					"Hard": "res://content/charts/stems_random/peak_transmission_hard.json",
+					"Medium": "res://content/charts/stems_random/peak_transmission_medium.json",
+					"Professional": "res://content/charts/stems_random/peak_transmission_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/peak_transmission_easy.json",
+					"Expert": "res://content/charts/synthesized/peak_transmission_expert.json",
+					"Hard": "res://content/charts/synthesized/peak_transmission_hard.json",
+					"Medium": "res://content/charts/synthesized/peak_transmission_medium.json",
+					"Professional": "res://content/charts/synthesized/peak_transmission_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/persevere.ogg",
+		"bpm": 127.8,
+		"chart_base_name": "Persevere",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Persevere",
+		"id": "persevere",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/persevere_easy.json",
+					"Expert": "res://content/charts/stems_mapped/persevere_expert.json",
+					"Hard": "res://content/charts/stems_mapped/persevere_hard.json",
+					"Medium": "res://content/charts/stems_mapped/persevere_medium.json",
+					"Professional": "res://content/charts/stems_mapped/persevere_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/persevere_easy.json",
+					"Expert": "res://content/charts/stems_random/persevere_expert.json",
+					"Hard": "res://content/charts/stems_random/persevere_hard.json",
+					"Medium": "res://content/charts/stems_random/persevere_medium.json",
+					"Professional": "res://content/charts/stems_random/persevere_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/persevere_easy.json",
+					"Expert": "res://content/charts/synthesized/persevere_expert.json",
+					"Hard": "res://content/charts/synthesized/persevere_hard.json",
+					"Medium": "res://content/charts/synthesized/persevere_medium.json",
+					"Professional": "res://content/charts/synthesized/persevere_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/rave_signal.ogg",
+		"bpm": 152.0,
+		"chart_base_name": "Rave Signal",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Rave Signal",
+		"id": "rave_signal",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/rave_signal_easy.json",
+					"Expert": "res://content/charts/stems_mapped/rave_signal_expert.json",
+					"Hard": "res://content/charts/stems_mapped/rave_signal_hard.json",
+					"Medium": "res://content/charts/stems_mapped/rave_signal_medium.json",
+					"Professional": "res://content/charts/stems_mapped/rave_signal_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/rave_signal_easy.json",
+					"Expert": "res://content/charts/stems_random/rave_signal_expert.json",
+					"Hard": "res://content/charts/stems_random/rave_signal_hard.json",
+					"Medium": "res://content/charts/stems_random/rave_signal_medium.json",
+					"Professional": "res://content/charts/stems_random/rave_signal_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/rave_signal_easy.json",
+					"Expert": "res://content/charts/synthesized/rave_signal_expert.json",
+					"Hard": "res://content/charts/synthesized/rave_signal_hard.json",
+					"Medium": "res://content/charts/synthesized/rave_signal_medium.json",
+					"Professional": "res://content/charts/synthesized/rave_signal_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/repetition_is_truth.ogg",
+		"bpm": 127.8,
+		"chart_base_name": "Repetition Is Truth",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Repetition Is Truth",
+		"id": "repetition_is_truth",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/repetition_is_truth_easy.json",
+					"Expert": "res://content/charts/stems_mapped/repetition_is_truth_expert.json",
+					"Hard": "res://content/charts/stems_mapped/repetition_is_truth_hard.json",
+					"Medium": "res://content/charts/stems_mapped/repetition_is_truth_medium.json",
+					"Professional": "res://content/charts/stems_mapped/repetition_is_truth_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/repetition_is_truth_easy.json",
+					"Expert": "res://content/charts/stems_random/repetition_is_truth_expert.json",
+					"Hard": "res://content/charts/stems_random/repetition_is_truth_hard.json",
+					"Medium": "res://content/charts/stems_random/repetition_is_truth_medium.json",
+					"Professional": "res://content/charts/stems_random/repetition_is_truth_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/repetition_is_truth_easy.json",
+					"Expert": "res://content/charts/synthesized/repetition_is_truth_expert.json",
+					"Hard": "res://content/charts/synthesized/repetition_is_truth_hard.json",
+					"Medium": "res://content/charts/synthesized/repetition_is_truth_medium.json",
+					"Professional": "res://content/charts/synthesized/repetition_is_truth_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/right_now.ogg",
+		"bpm": 140.6,
+		"chart_base_name": "Right Now",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Right Now",
+		"id": "right_now",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/right_now_easy.json",
+					"Expert": "res://content/charts/stems_mapped/right_now_expert.json",
+					"Hard": "res://content/charts/stems_mapped/right_now_hard.json",
+					"Medium": "res://content/charts/stems_mapped/right_now_medium.json",
+					"Professional": "res://content/charts/stems_mapped/right_now_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/right_now_easy.json",
+					"Expert": "res://content/charts/stems_random/right_now_expert.json",
+					"Hard": "res://content/charts/stems_random/right_now_hard.json",
+					"Medium": "res://content/charts/stems_random/right_now_medium.json",
+					"Professional": "res://content/charts/stems_random/right_now_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/right_now_easy.json",
+					"Expert": "res://content/charts/synthesized/right_now_expert.json",
+					"Hard": "res://content/charts/synthesized/right_now_hard.json",
+					"Medium": "res://content/charts/synthesized/right_now_medium.json",
+					"Professional": "res://content/charts/synthesized/right_now_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/say_it.ogg",
+		"bpm": 127.8,
+		"chart_base_name": "Say It",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Say It",
+		"id": "say_it",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/say_it_easy.json",
+					"Expert": "res://content/charts/stems_mapped/say_it_expert.json",
+					"Hard": "res://content/charts/stems_mapped/say_it_hard.json",
+					"Medium": "res://content/charts/stems_mapped/say_it_medium.json",
+					"Professional": "res://content/charts/stems_mapped/say_it_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/say_it_easy.json",
+					"Expert": "res://content/charts/stems_random/say_it_expert.json",
+					"Hard": "res://content/charts/stems_random/say_it_hard.json",
+					"Medium": "res://content/charts/stems_random/say_it_medium.json",
+					"Professional": "res://content/charts/stems_random/say_it_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/say_it_easy.json",
+					"Expert": "res://content/charts/synthesized/say_it_expert.json",
+					"Hard": "res://content/charts/synthesized/say_it_hard.json",
+					"Medium": "res://content/charts/synthesized/say_it_medium.json",
+					"Professional": "res://content/charts/synthesized/say_it_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/say_you_didnt_mean_it_v1.ogg",
+		"bpm": 120.0,
+		"chart_base_name": "Say You Didnt Mean It v1",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Say You Didnt Mean It v1",
+		"id": "say_you_didnt_mean_it_v1",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/say_you_didnt_mean_it_v1_easy.json",
+					"Expert": "res://content/charts/stems_mapped/say_you_didnt_mean_it_v1_expert.json",
+					"Hard": "res://content/charts/stems_mapped/say_you_didnt_mean_it_v1_hard.json",
+					"Medium": "res://content/charts/stems_mapped/say_you_didnt_mean_it_v1_medium.json",
+					"Professional": "res://content/charts/stems_mapped/say_you_didnt_mean_it_v1_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/say_you_didnt_mean_it_v1_easy.json",
+					"Expert": "res://content/charts/stems_random/say_you_didnt_mean_it_v1_expert.json",
+					"Hard": "res://content/charts/stems_random/say_you_didnt_mean_it_v1_hard.json",
+					"Medium": "res://content/charts/stems_random/say_you_didnt_mean_it_v1_medium.json",
+					"Professional": "res://content/charts/stems_random/say_you_didnt_mean_it_v1_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/say_you_didnt_mean_it_v1_easy.json",
+					"Expert": "res://content/charts/synthesized/say_you_didnt_mean_it_v1_expert.json",
+					"Hard": "res://content/charts/synthesized/say_you_didnt_mean_it_v1_hard.json",
+					"Medium": "res://content/charts/synthesized/say_you_didnt_mean_it_v1_medium.json",
+					"Professional": "res://content/charts/synthesized/say_you_didnt_mean_it_v1_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/skyline_motion.ogg",
+		"bpm": 132.4,
+		"chart_base_name": "Skyline Motion",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Skyline Motion",
+		"id": "skyline_motion",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/skyline_motion_easy.json",
+					"Expert": "res://content/charts/stems_mapped/skyline_motion_expert.json",
+					"Hard": "res://content/charts/stems_mapped/skyline_motion_hard.json",
+					"Medium": "res://content/charts/stems_mapped/skyline_motion_medium.json",
+					"Professional": "res://content/charts/stems_mapped/skyline_motion_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/skyline_motion_easy.json",
+					"Expert": "res://content/charts/stems_random/skyline_motion_expert.json",
+					"Hard": "res://content/charts/stems_random/skyline_motion_hard.json",
+					"Medium": "res://content/charts/stems_random/skyline_motion_medium.json",
+					"Professional": "res://content/charts/stems_random/skyline_motion_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/skyline_motion_easy.json",
+					"Expert": "res://content/charts/synthesized/skyline_motion_expert.json",
+					"Hard": "res://content/charts/synthesized/skyline_motion_hard.json",
+					"Medium": "res://content/charts/synthesized/skyline_motion_medium.json",
+					"Professional": "res://content/charts/synthesized/skyline_motion_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/solar_drift.ogg",
+		"bpm": 126.4,
+		"chart_base_name": "Solar Drift",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Solar Drift",
+		"id": "solar_drift",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/solar_drift_easy.json",
+					"Expert": "res://content/charts/stems_mapped/solar_drift_expert.json",
+					"Hard": "res://content/charts/stems_mapped/solar_drift_hard.json",
+					"Medium": "res://content/charts/stems_mapped/solar_drift_medium.json",
+					"Professional": "res://content/charts/stems_mapped/solar_drift_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/solar_drift_easy.json",
+					"Expert": "res://content/charts/stems_random/solar_drift_expert.json",
+					"Hard": "res://content/charts/stems_random/solar_drift_hard.json",
+					"Medium": "res://content/charts/stems_random/solar_drift_medium.json",
+					"Professional": "res://content/charts/stems_random/solar_drift_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/solar_drift_easy.json",
+					"Expert": "res://content/charts/synthesized/solar_drift_expert.json",
+					"Hard": "res://content/charts/synthesized/solar_drift_hard.json",
+					"Medium": "res://content/charts/synthesized/solar_drift_medium.json",
+					"Professional": "res://content/charts/synthesized/solar_drift_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/soul_s_slowly_dying.ogg",
+		"bpm": 135.5,
+		"chart_base_name": "Soul's Slowly Dying",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Soul's Slowly Dying",
+		"id": "soul_s_slowly_dying",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/soul_s_slowly_dying_easy.json",
+					"Expert": "res://content/charts/stems_mapped/soul_s_slowly_dying_expert.json",
+					"Hard": "res://content/charts/stems_mapped/soul_s_slowly_dying_hard.json",
+					"Medium": "res://content/charts/stems_mapped/soul_s_slowly_dying_medium.json",
+					"Professional": "res://content/charts/stems_mapped/soul_s_slowly_dying_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/soul_s_slowly_dying_easy.json",
+					"Expert": "res://content/charts/stems_random/soul_s_slowly_dying_expert.json",
+					"Hard": "res://content/charts/stems_random/soul_s_slowly_dying_hard.json",
+					"Medium": "res://content/charts/stems_random/soul_s_slowly_dying_medium.json",
+					"Professional": "res://content/charts/stems_random/soul_s_slowly_dying_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/soul_s_slowly_dying_easy.json",
+					"Expert": "res://content/charts/synthesized/soul_s_slowly_dying_expert.json",
+					"Hard": "res://content/charts/synthesized/soul_s_slowly_dying_hard.json",
+					"Medium": "res://content/charts/synthesized/soul_s_slowly_dying_medium.json",
+					"Professional": "res://content/charts/synthesized/soul_s_slowly_dying_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/space_drift.ogg",
+		"bpm": 140.6,
+		"chart_base_name": "Space Drift",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Space Drift",
+		"id": "space_drift",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/space_drift_easy.json",
+					"Expert": "res://content/charts/stems_mapped/space_drift_expert.json",
+					"Hard": "res://content/charts/stems_mapped/space_drift_hard.json",
+					"Medium": "res://content/charts/stems_mapped/space_drift_medium.json",
+					"Professional": "res://content/charts/stems_mapped/space_drift_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/space_drift_easy.json",
+					"Expert": "res://content/charts/stems_random/space_drift_expert.json",
+					"Hard": "res://content/charts/stems_random/space_drift_hard.json",
+					"Medium": "res://content/charts/stems_random/space_drift_medium.json",
+					"Professional": "res://content/charts/stems_random/space_drift_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/space_drift_easy.json",
+					"Expert": "res://content/charts/synthesized/space_drift_expert.json",
+					"Hard": "res://content/charts/synthesized/space_drift_hard.json",
+					"Medium": "res://content/charts/synthesized/space_drift_medium.json",
+					"Professional": "res://content/charts/synthesized/space_drift_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/static_in_the_dark.ogg",
+		"bpm": 126.4,
+		"chart_base_name": "Static in the Dark",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Static in the Dark",
+		"id": "static_in_the_dark",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/static_in_the_dark_easy.json",
+					"Expert": "res://content/charts/stems_mapped/static_in_the_dark_expert.json",
+					"Hard": "res://content/charts/stems_mapped/static_in_the_dark_hard.json",
+					"Medium": "res://content/charts/stems_mapped/static_in_the_dark_medium.json",
+					"Professional": "res://content/charts/stems_mapped/static_in_the_dark_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/static_in_the_dark_easy.json",
+					"Expert": "res://content/charts/stems_random/static_in_the_dark_expert.json",
+					"Hard": "res://content/charts/stems_random/static_in_the_dark_hard.json",
+					"Medium": "res://content/charts/stems_random/static_in_the_dark_medium.json",
+					"Professional": "res://content/charts/stems_random/static_in_the_dark_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/static_in_the_dark_easy.json",
+					"Expert": "res://content/charts/synthesized/static_in_the_dark_expert.json",
+					"Hard": "res://content/charts/synthesized/static_in_the_dark_hard.json",
+					"Medium": "res://content/charts/synthesized/static_in_the_dark_medium.json",
+					"Professional": "res://content/charts/synthesized/static_in_the_dark_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/sublevel_motion.ogg",
+		"bpm": 127.8,
+		"chart_base_name": "Sublevel Motion",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Sublevel Motion",
+		"id": "sublevel_motion",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/sublevel_motion_easy.json",
+					"Expert": "res://content/charts/stems_mapped/sublevel_motion_expert.json",
+					"Hard": "res://content/charts/stems_mapped/sublevel_motion_hard.json",
+					"Medium": "res://content/charts/stems_mapped/sublevel_motion_medium.json",
+					"Professional": "res://content/charts/stems_mapped/sublevel_motion_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/sublevel_motion_easy.json",
+					"Expert": "res://content/charts/stems_random/sublevel_motion_expert.json",
+					"Hard": "res://content/charts/stems_random/sublevel_motion_hard.json",
+					"Medium": "res://content/charts/stems_random/sublevel_motion_medium.json",
+					"Professional": "res://content/charts/stems_random/sublevel_motion_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/sublevel_motion_easy.json",
+					"Expert": "res://content/charts/synthesized/sublevel_motion_expert.json",
+					"Hard": "res://content/charts/synthesized/sublevel_motion_hard.json",
+					"Medium": "res://content/charts/synthesized/sublevel_motion_medium.json",
+					"Professional": "res://content/charts/synthesized/sublevel_motion_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/sunny.ogg",
+		"bpm": 137.2,
+		"chart_base_name": "Sunny",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Sunny",
+		"id": "sunny",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/sunny_easy.json",
+					"Expert": "res://content/charts/stems_mapped/sunny_expert.json",
+					"Hard": "res://content/charts/stems_mapped/sunny_hard.json",
+					"Medium": "res://content/charts/stems_mapped/sunny_medium.json",
+					"Professional": "res://content/charts/stems_mapped/sunny_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/sunny_easy.json",
+					"Expert": "res://content/charts/stems_random/sunny_expert.json",
+					"Hard": "res://content/charts/stems_random/sunny_hard.json",
+					"Medium": "res://content/charts/stems_random/sunny_medium.json",
+					"Professional": "res://content/charts/stems_random/sunny_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/sunny_easy.json",
+					"Expert": "res://content/charts/synthesized/sunny_expert.json",
+					"Hard": "res://content/charts/synthesized/sunny_hard.json",
+					"Medium": "res://content/charts/synthesized/sunny_medium.json",
+					"Professional": "res://content/charts/synthesized/sunny_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/tenacity.ogg",
+		"bpm": 137.2,
+		"chart_base_name": "Tenacity",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Tenacity",
+		"id": "tenacity",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/tenacity_easy.json",
+					"Expert": "res://content/charts/stems_mapped/tenacity_expert.json",
+					"Hard": "res://content/charts/stems_mapped/tenacity_hard.json",
+					"Medium": "res://content/charts/stems_mapped/tenacity_medium.json",
+					"Professional": "res://content/charts/stems_mapped/tenacity_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/tenacity_easy.json",
+					"Expert": "res://content/charts/stems_random/tenacity_expert.json",
+					"Hard": "res://content/charts/stems_random/tenacity_hard.json",
+					"Medium": "res://content/charts/stems_random/tenacity_medium.json",
+					"Professional": "res://content/charts/stems_random/tenacity_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/tenacity_easy.json",
+					"Expert": "res://content/charts/synthesized/tenacity_expert.json",
+					"Hard": "res://content/charts/synthesized/tenacity_hard.json",
+					"Medium": "res://content/charts/synthesized/tenacity_medium.json",
+					"Professional": "res://content/charts/synthesized/tenacity_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/velocity_of_light.ogg",
+		"bpm": 146.1,
+		"chart_base_name": "Velocity of Light",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Velocity of Light",
+		"id": "velocity_of_light",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/velocity_of_light_easy.json",
+					"Expert": "res://content/charts/stems_mapped/velocity_of_light_expert.json",
+					"Hard": "res://content/charts/stems_mapped/velocity_of_light_hard.json",
+					"Medium": "res://content/charts/stems_mapped/velocity_of_light_medium.json",
+					"Professional": "res://content/charts/stems_mapped/velocity_of_light_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/velocity_of_light_easy.json",
+					"Expert": "res://content/charts/stems_random/velocity_of_light_expert.json",
+					"Hard": "res://content/charts/stems_random/velocity_of_light_hard.json",
+					"Medium": "res://content/charts/stems_random/velocity_of_light_medium.json",
+					"Professional": "res://content/charts/stems_random/velocity_of_light_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/velocity_of_light_easy.json",
+					"Expert": "res://content/charts/synthesized/velocity_of_light_expert.json",
+					"Hard": "res://content/charts/synthesized/velocity_of_light_hard.json",
+					"Medium": "res://content/charts/synthesized/velocity_of_light_medium.json",
+					"Professional": "res://content/charts/synthesized/velocity_of_light_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/vocal_null.ogg",
+		"bpm": 146.1,
+		"chart_base_name": "Vocal Null",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Vocal Null",
+		"id": "vocal_null",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/vocal_null_easy.json",
+					"Expert": "res://content/charts/stems_mapped/vocal_null_expert.json",
+					"Hard": "res://content/charts/stems_mapped/vocal_null_hard.json",
+					"Medium": "res://content/charts/stems_mapped/vocal_null_medium.json",
+					"Professional": "res://content/charts/stems_mapped/vocal_null_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/vocal_null_easy.json",
+					"Expert": "res://content/charts/stems_random/vocal_null_expert.json",
+					"Hard": "res://content/charts/stems_random/vocal_null_hard.json",
+					"Medium": "res://content/charts/stems_random/vocal_null_medium.json",
+					"Professional": "res://content/charts/stems_random/vocal_null_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/vocal_null_easy.json",
+					"Expert": "res://content/charts/synthesized/vocal_null_expert.json",
+					"Hard": "res://content/charts/synthesized/vocal_null_hard.json",
+					"Medium": "res://content/charts/synthesized/vocal_null_medium.json",
+					"Professional": "res://content/charts/synthesized/vocal_null_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/we_should_let_go.ogg",
+		"bpm": 139.5,
+		"chart_base_name": "We Should Let Go",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "We Should Let Go",
+		"id": "we_should_let_go",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/we_should_let_go_easy.json",
+					"Expert": "res://content/charts/stems_mapped/we_should_let_go_expert.json",
+					"Hard": "res://content/charts/stems_mapped/we_should_let_go_hard.json",
+					"Medium": "res://content/charts/stems_mapped/we_should_let_go_medium.json",
+					"Professional": "res://content/charts/stems_mapped/we_should_let_go_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/we_should_let_go_easy.json",
+					"Expert": "res://content/charts/stems_random/we_should_let_go_expert.json",
+					"Hard": "res://content/charts/stems_random/we_should_let_go_hard.json",
+					"Medium": "res://content/charts/stems_random/we_should_let_go_medium.json",
+					"Professional": "res://content/charts/stems_random/we_should_let_go_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/we_should_let_go_easy.json",
+					"Expert": "res://content/charts/synthesized/we_should_let_go_expert.json",
+					"Hard": "res://content/charts/synthesized/we_should_let_go_hard.json",
+					"Medium": "res://content/charts/synthesized/we_should_let_go_medium.json",
+					"Professional": "res://content/charts/synthesized/we_should_let_go_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/we_were_infinite.ogg",
+		"bpm": 127.8,
+		"chart_base_name": "We Were Infinite",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "We Were Infinite",
+		"id": "we_were_infinite",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/we_were_infinite_easy.json",
+					"Expert": "res://content/charts/stems_mapped/we_were_infinite_expert.json",
+					"Hard": "res://content/charts/stems_mapped/we_were_infinite_hard.json",
+					"Medium": "res://content/charts/stems_mapped/we_were_infinite_medium.json",
+					"Professional": "res://content/charts/stems_mapped/we_were_infinite_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/we_were_infinite_easy.json",
+					"Expert": "res://content/charts/stems_random/we_were_infinite_expert.json",
+					"Hard": "res://content/charts/stems_random/we_were_infinite_hard.json",
+					"Medium": "res://content/charts/stems_random/we_were_infinite_medium.json",
+					"Professional": "res://content/charts/stems_random/we_were_infinite_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/we_were_infinite_easy.json",
+					"Expert": "res://content/charts/synthesized/we_were_infinite_expert.json",
+					"Hard": "res://content/charts/synthesized/we_were_infinite_hard.json",
+					"Medium": "res://content/charts/synthesized/we_were_infinite_medium.json",
+					"Professional": "res://content/charts/synthesized/we_were_infinite_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	},
+	{
+		"artist": "Dj Iatneh",
+		"audio_path": "res://content/audio/where_we_used_to_dance.ogg",
+		"bpm": 128.3,
+		"chart_base_name": "Where We Used To Dance",
+		"difficulties": [
+			"Easy",
+			"Expert",
+			"Hard",
+			"Medium",
+			"Professional"
+		],
+		"display_name": "Where We Used To Dance",
+		"id": "where_we_used_to_dance",
+		"is_premium": false,
+		"modes": {
+			"stems_mapped": {
+				"charts": {
+					"Easy": "res://content/charts/stems_mapped/where_we_used_to_dance_easy.json",
+					"Expert": "res://content/charts/stems_mapped/where_we_used_to_dance_expert.json",
+					"Hard": "res://content/charts/stems_mapped/where_we_used_to_dance_hard.json",
+					"Medium": "res://content/charts/stems_mapped/where_we_used_to_dance_medium.json",
+					"Professional": "res://content/charts/stems_mapped/where_we_used_to_dance_professional.json"
+				},
+				"display_name": "Classic",
+				"id": "stems_mapped",
+				"short_label": "Classic"
+			},
+			"stems_random": {
+				"charts": {
+					"Easy": "res://content/charts/stems_random/where_we_used_to_dance_easy.json",
+					"Expert": "res://content/charts/stems_random/where_we_used_to_dance_expert.json",
+					"Hard": "res://content/charts/stems_random/where_we_used_to_dance_hard.json",
+					"Medium": "res://content/charts/stems_random/where_we_used_to_dance_medium.json",
+					"Professional": "res://content/charts/stems_random/where_we_used_to_dance_professional.json"
+				},
+				"display_name": "Lane Shuffle",
+				"id": "stems_random",
+				"short_label": "Shuffle"
+			},
+			"synthesized": {
+				"charts": {
+					"Easy": "res://content/charts/synthesized/where_we_used_to_dance_easy.json",
+					"Expert": "res://content/charts/synthesized/where_we_used_to_dance_expert.json",
+					"Hard": "res://content/charts/synthesized/where_we_used_to_dance_hard.json",
+					"Medium": "res://content/charts/synthesized/where_we_used_to_dance_medium.json",
+					"Professional": "res://content/charts/synthesized/where_we_used_to_dance_professional.json"
+				},
+				"display_name": "Remix Difficulty",
+				"id": "synthesized",
+				"short_label": "Remix"
+			}
+		},
+		"preview_start": 0.0
+	}
+]

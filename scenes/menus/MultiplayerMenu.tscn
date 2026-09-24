@@ -1,0 +1,302 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scenes/menus/MultiplayerMenu.gd" id="1"]
+
+[node name="MultiplayerMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="ColorRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 1
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 160.0
+offset_bottom = 64.0
+z_index = 20
+flat = true
+
+[node name="BackLabel" type="Label" parent="BackButton"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 120.0
+offset_bottom = 20.0
+text = "← BACK"
+
+[node name="Center" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="PanelContainer" parent="Center"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(780, 740)
+layout_mode = 2
+
+[node name="Margin" type="MarginContainer" parent="Center/Panel"]
+layout_mode = 2
+theme_override_constants/margin_left = 28
+theme_override_constants/margin_top = 28
+theme_override_constants/margin_right = 28
+theme_override_constants/margin_bottom = 28
+
+[node name="Scroll" type="ScrollContainer" parent="Center/Panel/Margin"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="VBox" type="VBoxContainer" parent="Center/Panel/Margin/Scroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 18
+
+[node name="TitleLabel" type="Label" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "MULTIPLAYER"
+horizontal_alignment = 1
+
+[node name="SubtitleLabel" type="Label" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Authenticate, create or join a session, pick the song, ready up, and launch the shared start."
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="IdentityLabel" type="Label" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Identity: not authenticated"
+autowrap_mode = 3
+
+[node name="AuthenticateButton" type="Button" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "AUTHENTICATE"
+
+[node name="ClassicMatchmakeButton" type="Button" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "START CLASSIC MATCHMAKING"
+
+[node name="SteamInviteButton" type="Button" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "INVITE STEAM FRIEND"
+
+[node name="PollMatchmakeButton" type="Button" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "POLL MATCHMAKING TICKET"
+
+[node name="CreateLobbyButton" type="Button" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "CREATE CUSTOM LOBBY"
+
+[node name="JoinRow" type="HBoxContainer" parent="Center/Panel/Margin/Scroll/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="ConnectionInput" type="LineEdit" parent="Center/Panel/Margin/Scroll/VBox/JoinRow"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "Lobby connection string"
+
+[node name="JoinLobbyButton" type="Button" parent="Center/Panel/Margin/Scroll/VBox/JoinRow"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "JOIN LOBBY"
+
+[node name="ShareCodeLabel" type="Label" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Lobby code: not available"
+autowrap_mode = 3
+
+[node name="SelectedJacket" type="TextureRect" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(168, 168)
+layout_mode = 2
+size_flags_horizontal = 4
+expand_mode = 1
+stretch_mode = 5
+
+[node name="SelectionLabel" type="Label" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Track: not selected"
+autowrap_mode = 3
+
+[node name="LobbyStateLabel" type="Label" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Phase: idle"
+autowrap_mode = 3
+
+[node name="SessionRow" type="HBoxContainer" parent="Center/Panel/Margin/Scroll/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="HostInput" type="LineEdit" parent="Center/Panel/Margin/Scroll/VBox/SessionRow"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "Host address"
+
+[node name="PortInput" type="LineEdit" parent="Center/Panel/Margin/Scroll/VBox/SessionRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+placeholder_text = "Port"
+
+[node name="HostSessionButton" type="Button" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "HOST ENET SESSION"
+
+[node name="JoinSessionButton" type="Button" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "JOIN ENET SESSION"
+
+[node name="SelectTrackButton" type="Button" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "SELECT TRACK / MODE / DIFFICULTY"
+
+[node name="ReadyButton" type="Button" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "READY UP"
+
+[node name="PlayersLabel" type="Label" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Players: none"
+autowrap_mode = 3
+
+[node name="StatusPanel" type="PanelContainer" parent="Center/Panel/Margin/Scroll/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+custom_minimum_size = Vector2(0, 196)
+
+[node name="StatusMargin" type="MarginContainer" parent="Center/Panel/Margin/Scroll/VBox/StatusPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="StatusScroll" type="ScrollContainer" parent="Center/Panel/Margin/Scroll/VBox/StatusPanel/StatusMargin"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="StatusLabel" type="Label" parent="Center/Panel/Margin/Scroll/VBox/StatusPanel/StatusMargin/StatusScroll"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Connect first, then use relay-backed classic or custom multiplayer."
+autowrap_mode = 3
+
+[node name="OverlayDim" type="ColorRect" parent="."]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="SelectionCenter" type="CenterContainer" parent="."]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SelectionPanel" type="PanelContainer" parent="SelectionCenter"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(620, 540)
+layout_mode = 2
+
+[node name="SelectionMargin" type="MarginContainer" parent="SelectionCenter/SelectionPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 28
+theme_override_constants/margin_top = 28
+theme_override_constants/margin_right = 28
+theme_override_constants/margin_bottom = 28
+
+[node name="SelectionVBox" type="VBoxContainer" parent="SelectionCenter/SelectionPanel/SelectionMargin"]
+layout_mode = 2
+theme_override_constants/separation = 18
+
+[node name="SelectionTitleLabel" type="Label" parent="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "SELECT"
+horizontal_alignment = 1
+
+[node name="SelectionSubtitleLabel" type="Label" parent="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = ""
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="SelectionScroll" type="ScrollContainer" parent="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="SelectionButtons" type="VBoxContainer" parent="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox/SelectionScroll"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 14
+
+[node name="SelectionCancelButton" type="Button" parent="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "CANCEL"
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="Center/Panel/Margin/Scroll/VBox/AuthenticateButton" to="." method="_on_authenticate_button_pressed"]
+[connection signal="pressed" from="Center/Panel/Margin/Scroll/VBox/ClassicMatchmakeButton" to="." method="_on_classic_matchmake_button_pressed"]
+[connection signal="pressed" from="Center/Panel/Margin/Scroll/VBox/SteamInviteButton" to="." method="_on_steam_invite_button_pressed"]
+[connection signal="pressed" from="Center/Panel/Margin/Scroll/VBox/PollMatchmakeButton" to="." method="_on_poll_matchmake_button_pressed"]
+[connection signal="pressed" from="Center/Panel/Margin/Scroll/VBox/CreateLobbyButton" to="." method="_on_create_lobby_button_pressed"]
+[connection signal="pressed" from="Center/Panel/Margin/Scroll/VBox/JoinRow/JoinLobbyButton" to="." method="_on_join_lobby_button_pressed"]
+[connection signal="pressed" from="Center/Panel/Margin/Scroll/VBox/HostSessionButton" to="." method="_on_host_session_button_pressed"]
+[connection signal="pressed" from="Center/Panel/Margin/Scroll/VBox/JoinSessionButton" to="." method="_on_join_session_button_pressed"]
+[connection signal="pressed" from="Center/Panel/Margin/Scroll/VBox/SelectTrackButton" to="." method="_on_select_track_button_pressed"]
+[connection signal="pressed" from="Center/Panel/Margin/Scroll/VBox/ReadyButton" to="." method="_on_ready_button_pressed"]
+[connection signal="pressed" from="SelectionCenter/SelectionPanel/SelectionMargin/SelectionVBox/SelectionCancelButton" to="." method="_on_selection_cancel_button_pressed"]

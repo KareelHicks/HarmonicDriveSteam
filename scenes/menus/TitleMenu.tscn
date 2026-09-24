@@ -1,0 +1,218 @@
+[gd_scene format=3 uid="uid://jtp0br11imih"]
+
+[ext_resource type="Script" uid="uid://dk4j03gkgrfc2" path="res://scenes/menus/TitleMenu.gd" id="1"]
+[ext_resource type="Texture2D" path="res://HarmonicDriveLogoSingle.png" id="2"]
+
+[node name="TitleMenu" type="Control" unique_id=1431206290]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="ColorRect" parent="." unique_id=729442149]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.03, 0.04, 0.12, 1)
+
+[node name="SafeMargin" type="MarginContainer" parent="." unique_id=1444851461]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="MenuScroll" type="ScrollContainer" parent="SafeMargin" unique_id=1284433734]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="RootVBox" type="VBoxContainer" parent="SafeMargin/MenuScroll" unique_id=874763086]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="HeaderSpacer" type="Control" parent="SafeMargin/MenuScroll/RootVBox" unique_id=808730813]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 58)
+layout_mode = 2
+
+[node name="TitleLogo" type="TextureRect" parent="SafeMargin/MenuScroll/RootVBox" unique_id=1654756622]
+unique_name_in_owner = true
+layout_mode = 2
+texture = ExtResource("2")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TitleGap" type="Control" parent="SafeMargin/MenuScroll/RootVBox" unique_id=2016497268]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 4)
+layout_mode = 2
+
+[node name="DividerGap" type="Control" parent="SafeMargin/MenuScroll/RootVBox" unique_id=1839352603]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 16)
+layout_mode = 2
+
+[node name="DividerWrap" type="CenterContainer" parent="SafeMargin/MenuScroll/RootVBox" unique_id=1758030165]
+layout_mode = 2
+
+[node name="Divider" type="ColorRect" parent="SafeMargin/MenuScroll/RootVBox/DividerWrap" unique_id=911997421]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 1)
+layout_mode = 2
+color = Color(0.15, 0.82, 1, 0.35)
+
+[node name="CenterSpacer" type="Control" parent="SafeMargin/MenuScroll/RootVBox" unique_id=1616073390]
+custom_minimum_size = Vector2(0, 24)
+layout_mode = 2
+
+[node name="ButtonsWrap" type="CenterContainer" parent="SafeMargin/MenuScroll/RootVBox" unique_id=1050348801]
+layout_mode = 2
+
+[node name="ButtonsVBox" type="VBoxContainer" parent="SafeMargin/MenuScroll/RootVBox/ButtonsWrap" unique_id=151303302]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="PlayButton" type="Button" parent="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox" unique_id=626334914]
+layout_mode = 2
+text = "Enter The Flow (Track Select)"
+
+[node name="VisualizerButton" type="Button" parent="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Visualizer Mode"
+
+[node name="PracticeModeButton" type="Button" parent="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Practice Mode"
+
+[node name="LocalSongsButton" type="Button" parent="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox" unique_id=1360875208]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Local Music"
+
+[node name="CommunityChartsButton" type="Button" parent="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Community Charts"
+
+[node name="MultiplayerButton" type="Button" parent="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox" unique_id=1303916850]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Multiplayer"
+
+[node name="EMSCreatorButton" type="Button" parent="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "EMS Creator"
+
+[node name="CharterButton" type="Button" parent="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox" unique_id=2006871551]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Harmonic Charter (Chart Editor)"
+
+[node name="LeaderboardsButton" type="Button" parent="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox" unique_id=428997795]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Leaderboards"
+
+[node name="ShopButton" type="Button" parent="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox" unique_id=1444462160]
+layout_mode = 2
+text = "Shop / Loadout"
+
+[node name="ProgressionButton" type="Button" parent="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox" unique_id=348615862]
+layout_mode = 2
+text = "Progression"
+
+[node name="StatsButton" type="Button" parent="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox" unique_id=630959189]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Statistics"
+
+[node name="OptionsButton" type="Button" parent="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox" unique_id=376218239]
+layout_mode = 2
+text = "Options Menu"
+
+[node name="CalibrationButton" type="Button" parent="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox" unique_id=1957009788]
+layout_mode = 2
+text = "Audio Calibration"
+
+[node name="StatusLabel" type="Label" parent="SafeMargin/MenuScroll/RootVBox" unique_id=924242820]
+unique_name_in_owner = true
+layout_mode = 2
+horizontal_alignment = 1
+
+[node name="NowPlayingLabel" type="Label" parent="SafeMargin/MenuScroll/RootVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "NOW PLAYING"
+horizontal_alignment = 1
+
+[node name="FooterSpacer" type="Control" parent="SafeMargin/MenuScroll/RootVBox" unique_id=113513781]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+
+[node name="FooterLabel" type="Label" parent="SafeMargin/MenuScroll/RootVBox" unique_id=343446132]
+unique_name_in_owner = true
+layout_mode = 2
+text = "© 2026 HARMONIC DRIVE"
+horizontal_alignment = 1
+
+[node name="MenuMuteButton" type="Button" parent="." unique_id=2051301599]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -78.0
+offset_top = -78.0
+offset_right = -18.0
+offset_bottom = -18.0
+text = "🔊"
+
+[node name="QuitButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 18.0
+offset_top = -78.0
+offset_right = 136.0
+offset_bottom = -18.0
+text = "QUIT"
+
+[connection signal="pressed" from="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox/PlayButton" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox/VisualizerButton" to="." method="_on_visualizer_button_pressed"]
+[connection signal="pressed" from="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox/PracticeModeButton" to="." method="_on_practice_button_pressed"]
+[connection signal="pressed" from="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox/LocalSongsButton" to="." method="_on_local_songs_button_pressed"]
+[connection signal="pressed" from="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox/CommunityChartsButton" to="." method="_on_community_charts_button_pressed"]
+[connection signal="pressed" from="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox/MultiplayerButton" to="." method="_on_multiplayer_button_pressed"]
+[connection signal="pressed" from="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox/EMSCreatorButton" to="." method="_on_ems_creator_button_pressed"]
+[connection signal="pressed" from="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox/CharterButton" to="." method="_on_charter_button_pressed"]
+[connection signal="pressed" from="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox/LeaderboardsButton" to="." method="_on_leaderboards_button_pressed"]
+[connection signal="pressed" from="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox/ShopButton" to="." method="_on_shop_button_pressed"]
+[connection signal="pressed" from="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox/ProgressionButton" to="." method="_on_progression_button_pressed"]
+[connection signal="pressed" from="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox/StatsButton" to="." method="_on_stats_button_pressed"]
+[connection signal="pressed" from="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox/OptionsButton" to="." method="_on_options_button_pressed"]
+[connection signal="pressed" from="SafeMargin/MenuScroll/RootVBox/ButtonsWrap/ButtonsVBox/CalibrationButton" to="." method="_on_calibration_button_pressed"]
+[connection signal="pressed" from="MenuMuteButton" to="." method="_on_menu_mute_button_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]

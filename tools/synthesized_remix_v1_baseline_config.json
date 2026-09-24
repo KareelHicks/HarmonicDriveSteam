@@ -1,0 +1,51 @@
+{
+	"generator_version": "synthesized_remix_v1",
+	"snapshot_reason": "Baseline before reducing Remix Difficulty chord and hold overlap pressure.",
+	"hold_group_ratio": 0.15,
+	"chord_group_ratio": 0.25,
+	"time_key_scale": 1000.0,
+	"min_start_time": 0.5,
+	"add_ratios": {
+		"Easy": 0.20,
+		"Medium": 0.35,
+		"Hard": 0.50,
+		"Expert": 0.70,
+		"Professional": 0.85
+	},
+	"min_spacing": {
+		"Easy": 0.16,
+		"Medium": 0.12,
+		"Hard": 0.10,
+		"Expert": 0.085,
+		"Professional": 0.075
+	},
+	"max_chord_lanes": "2 on Easy/Medium, 3 on Hard+",
+	"accent_limit_ratio": 0.35,
+	"force_chord_after_ratio": 0.35,
+	"force_hold_after_ratio": 0.45,
+	"candidate_grid_step": "max(0.07, beat_sec * 0.25)",
+	"candidate_slice": "min(candidates.size, max(target_additions * 8, 64))",
+	"beat_strength": {
+		"beat": 1.25,
+		"half": 0.95,
+		"quarter": 0.72,
+		"fallback": "clamp(0.62 - dist_to_beat / beat_sec, 0, 0.62)"
+	},
+	"local_intensity_multiplier": 0.22,
+	"gap_score": {
+		"nearest_note_penalty_threshold": 0.045,
+		"penalty": -0.75,
+		"max_bonus": 0.65
+	},
+	"triple_chord_probability_if_capped": 0.35,
+	"hold_lengths": {
+		"base_beats": 1.0,
+		"hard_plus_1_5_beat_probability": 0.35,
+		"half_beat_probability": 0.30,
+		"seconds_clamp": [0.18, 1.60]
+	},
+	"known_limitations": [
+		"Existing authored notes at the generated timestamp were not counted against the chord-size cap.",
+		"Generated holds avoided other holds but could span tap notes on the same lane."
+	]
+}

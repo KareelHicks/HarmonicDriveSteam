@@ -1,0 +1,903 @@
+[gd_scene format=3 uid="uid://cdv74eed28wm"]
+
+[ext_resource type="Script" uid="uid://bpq5sed74vgrq" path="res://scenes/menus/SettingsMenu.gd" id="1"]
+
+[node name="SettingsMenu" type="Control" unique_id=1818981255]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="ColorRect" parent="." unique_id=349285561]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Center" type="CenterContainer" parent="." unique_id=2089645699]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="PanelContainer" parent="Center" unique_id=225781024]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(560, 520)
+layout_mode = 2
+
+[node name="PanelVBox" type="VBoxContainer" parent="Center/Panel" unique_id=2011110900]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 10
+
+[node name="HeaderMargin" type="MarginContainer" parent="Center/Panel/PanelVBox"]
+layout_mode = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+
+[node name="HeaderVBox" type="VBoxContainer" parent="Center/Panel/PanelVBox/HeaderMargin"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="TitleLabel" type="Label" parent="Center/Panel/PanelVBox/HeaderMargin/HeaderVBox" unique_id=1970638184]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Options Menu"
+horizontal_alignment = 1
+
+[node name="SettingsSubMenuGrid" type="GridContainer" parent="Center/Panel/PanelVBox/HeaderMargin/HeaderVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/h_separation = 8
+theme_override_constants/v_separation = 8
+columns = 3
+
+[node name="GameplayTabButton" type="Button" parent="Center/Panel/PanelVBox/HeaderMargin/HeaderVBox/SettingsSubMenuGrid"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+button_pressed = true
+text = "Gameplay"
+
+[node name="AudioTabButton" type="Button" parent="Center/Panel/PanelVBox/HeaderMargin/HeaderVBox/SettingsSubMenuGrid"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+text = "Audio"
+
+[node name="EffectsTabButton" type="Button" parent="Center/Panel/PanelVBox/HeaderMargin/HeaderVBox/SettingsSubMenuGrid"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+text = "Effects"
+
+[node name="GraphicsTabButton" type="Button" parent="Center/Panel/PanelVBox/HeaderMargin/HeaderVBox/SettingsSubMenuGrid"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+text = "Graphics & Display"
+
+[node name="InputTabButton" type="Button" parent="Center/Panel/PanelVBox/HeaderMargin/HeaderVBox/SettingsSubMenuGrid"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+text = "Keyboard & Controller"
+
+[node name="ContentScroll" type="ScrollContainer" parent="Center/Panel/PanelVBox" unique_id=619542191]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="Margin" type="MarginContainer" parent="Center/Panel/PanelVBox/ContentScroll" unique_id=450813577]
+layout_mode = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24
+
+[node name="VBox" type="VBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin" unique_id=2053399337]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="LatencyRow" type="HBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=1295738300]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="LatencyCaption" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/LatencyRow" unique_id=1270897002]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+tooltip_text = "For those that want to manually set or view your latency offset"
+text = "Latency Offset"
+autowrap_mode = 3
+
+[node name="LatencyValueLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/LatencyRow" unique_id=2068878618]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+text = "0 ms"
+horizontal_alignment = 2
+
+[node name="LatencySlider" type="HSlider" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=414457790]
+unique_name_in_owner = true
+layout_mode = 2
+min_value = -250.0
+max_value = 250.0
+
+[node name="NoteSpeedTypeLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+tooltip_text = "Classic scales note travel speed by chart difficulty. Modern uses the selected note approach time."
+mouse_filter = 0
+text = "Note Speed Type"
+autowrap_mode = 3
+
+[node name="NoteSpeedTypeOptionButton" type="OptionButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="ScrollSpeedRow" type="HBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=1846483603]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="ScrollSpeedLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/ScrollSpeedRow" unique_id=1625281914]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+tooltip_text = "How long notes are visible before reaching the hit line.
+
+Lower = faster. Higher = slower."
+mouse_filter = 0
+text = "Note Approach Time"
+
+[node name="ScrollSpeedValueLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/ScrollSpeedRow" unique_id=1283168854]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+text = "2000 ms"
+horizontal_alignment = 2
+
+[node name="ScrollSpeedSlider" type="HSlider" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=1985754701]
+unique_name_in_owner = true
+layout_mode = 2
+min_value = 250.0
+max_value = 2000.0
+step = 10.0
+value = 250.0
+
+[node name="LaneWidthRow" type="HBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=840649744]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="LaneWidthLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/LaneWidthRow" unique_id=1755666305]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+tooltip_text = "Adjusts the width of the note lanes. Wider lanes can be easier to read, while narrower lanes provide a more compact gameplay view"
+mouse_filter = 0
+text = "Lane Width"
+autowrap_mode = 3
+
+[node name="LaneWidthValueLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/LaneWidthRow" unique_id=197853009]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+text = "40%"
+horizontal_alignment = 2
+
+[node name="LaneWidthSlider" type="HSlider" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=181911598]
+unique_name_in_owner = true
+layout_mode = 2
+min_value = 0.25
+max_value = 1.75
+step = 0.01
+value = 0.4
+
+[node name="MissDuckingLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=838540770]
+unique_name_in_owner = true
+layout_mode = 2
+tooltip_text = "Lowers the music volume briefly when you miss a note, making mistakes more noticeable"
+mouse_filter = 0
+text = "Audio Ducking On Miss"
+autowrap_mode = 3
+
+[node name="MissDuckingCheckBox" type="CheckBox" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=575394231]
+unique_name_in_owner = true
+layout_mode = 2
+button_pressed = true
+text = "Enable miss audio ducking"
+
+[node name="MenuMusicVolumeRow" type="HBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011110500]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="MenuMusicVolumeLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/MenuMusicVolumeRow" unique_id=2011110501]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Menu / Track Selection Volume Level"
+autowrap_mode = 3
+
+[node name="MenuMusicVolumeValueLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/MenuMusicVolumeRow" unique_id=2011110502]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+text = "100%"
+horizontal_alignment = 2
+
+[node name="MenuMusicVolumeSlider" type="HSlider" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011110503]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+max_value = 1.0
+step = 0.01
+value = 1.0
+
+[node name="GameplayMusicVolumeRow" type="HBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011110504]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="GameplayMusicVolumeLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/GameplayMusicVolumeRow" unique_id=2011110505]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Gameplay Volume Level"
+
+[node name="GameplayMusicVolumeValueLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/GameplayMusicVolumeRow" unique_id=2011110506]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+text = "100%"
+horizontal_alignment = 2
+
+[node name="GameplayMusicVolumeSlider" type="HSlider" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011110507]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+max_value = 1.0
+step = 0.01
+value = 1.0
+
+[node name="ThemeEffectsLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=1482795592]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+tooltip_text = "Enables advanced atmospheric effects. Disable for a simpler visual experience and improved performance"
+mouse_filter = 0
+text = "Emotional Motion System"
+autowrap_mode = 3
+
+[node name="ThemeEffectsCheckBox" type="CheckBox" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=217716150]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+button_pressed = true
+text = "Enable theme-driven visual effects"
+
+[node name="ChartBackgroundCheckBox" type="CheckBox" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+tooltip_text = "Hides the normal chart highway background so EMS ambience can show behind notes and mode effects."
+text = "Disable chart background"
+
+[node name="EMSColorsLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011109877]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+tooltip_text = "EMS color scheme options for gameplay"
+mouse_filter = 0
+text = "EMS Colors"
+
+[node name="EMSColorModeOptionButton" type="OptionButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011109878]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="EMSColorPickersRow" type="HBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011109879]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="EMSPrimaryColorPicker" type="ColorPickerButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/EMSColorPickersRow" unique_id=2011109880]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Primary"
+
+[node name="EMSSecondaryColorPicker" type="ColorPickerButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/EMSColorPickersRow" unique_id=2011109881]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Secondary"
+
+[node name="EMSAccentColorPicker" type="ColorPickerButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/EMSColorPickersRow" unique_id=2011109882]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Accent"
+
+[node name="EMSBackgroundLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011109990]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+tooltip_text = "EMS background options"
+mouse_filter = 0
+text = "EMS Background"
+autowrap_mode = 3
+
+[node name="EMSBackgroundModeOptionButton" type="OptionButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011109991]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="EMSBackgroundColorRow" type="HBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011109992]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="EMSBackgroundColorPicker" type="ColorPickerButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/EMSBackgroundColorRow" unique_id=2011109993]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Background Color"
+
+[node name="EMSBackgroundBrightnessRow" type="HBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011110010]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="EMSBackgroundBrightnessLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/EMSBackgroundBrightnessRow" unique_id=2011110011]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Background Brightness"
+
+[node name="EMSBackgroundBrightnessValueLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/EMSBackgroundBrightnessRow" unique_id=2011110012]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+text = "40% (Recommended)"
+horizontal_alignment = 2
+
+[node name="EMSBackgroundBrightnessSlider" type="HSlider" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011110013]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+max_value = 1.0
+step = 0.01
+value = 0.4
+
+[node name="EMSGutterImageLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011110020]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+tooltip_text = "Image(s) to apply to the left and right sides of the chart"
+mouse_filter = 0
+text = "EMS Gutter Image"
+autowrap_mode = 3
+
+[node name="EMSGutterImageModeOptionButton" type="OptionButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011110021]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="EMSGutterImageBothRow" type="HBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011110022]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="EMSGutterImageBothButton" type="Button" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/EMSGutterImageBothRow" unique_id=2011110023]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Choose Image (Both Gutters)"
+
+[node name="EMSGutterImageSeparateRow" type="HBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011110024]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="EMSGutterImageLeftButton" type="Button" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/EMSGutterImageSeparateRow" unique_id=2011110025]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Choose Left Image"
+
+[node name="EMSGutterImageRightButton" type="Button" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/EMSGutterImageSeparateRow" unique_id=2011110026]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Choose Right Image"
+
+[node name="EMSGutterImageAlphaRow" type="HBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011110027]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="EMSGutterImageAlphaLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/EMSGutterImageAlphaRow" unique_id=2011110028]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+tooltip_text = "Background images can be distracting. I recommend finding a transparency level that works best for you."
+mouse_filter = 0
+text = "EMS Image Transparency"
+autowrap_mode = 3
+
+[node name="EMSGutterImageAlphaValueLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/EMSGutterImageAlphaRow" unique_id=2011110029]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+text = "22%"
+horizontal_alignment = 2
+
+[node name="EMSGutterImageAlphaSlider" type="HSlider" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011110030]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+max_value = 1.0
+step = 0.01
+value = 0.22
+
+[node name="EMSTrippyLevelLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011109883]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+tooltip_text = "Choose from three EMS effect levels"
+mouse_filter = 0
+text = "EMS Effects Intensity Level"
+autowrap_mode = 3
+
+[node name="EMSTrippyLevelOptionButton" type="OptionButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011109884]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="EMSHitEffectLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+tooltip_text = "Choose the EMS-specific hit distortion effect."
+mouse_filter = 0
+text = "EMS HIt Effect"
+autowrap_mode = 3
+
+[node name="EMSHitEffectOptionButton" type="OptionButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="ShadersLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011110005]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+tooltip_text = "Enables bloom, distortion, and other visual effects that enhance the game's atmosphere and emotional motion system."
+mouse_filter = 0
+text = "Enable Shaders"
+autowrap_mode = 3
+
+[node name="ShadersCheckBox" type="CheckBox" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=2011110006]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+button_pressed = true
+text = "Enable shader-based visual effects"
+
+[node name="VisualEffectsLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "Visual Effects"
+
+[node name="VisualEffectBloomCheckBox" type="CheckBox" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+button_pressed = true
+text = "Bloom"
+
+[node name="VisualEffectDistortionCheckBox" type="CheckBox" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+button_pressed = true
+text = "Distortion"
+
+[node name="VisualEffectParticlesCheckBox" type="CheckBox" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+button_pressed = true
+text = "Particles"
+
+[node name="VisualEffectBackgroundAnimationsCheckBox" type="CheckBox" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+button_pressed = true
+text = "Background Animations"
+
+[node name="FPSLimitLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "FPS Limit"
+autowrap_mode = 3
+
+[node name="FPSLimitOptionButton" type="OptionButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="VSyncLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "VSync"
+autowrap_mode = 3
+
+[node name="VSyncOptionButton" type="OptionButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="PrioritizeFPSLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=1645009504]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "Prioritize FPS"
+autowrap_mode = 3
+
+[node name="PrioritizeFPSCheckBox" type="CheckBox" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=250132548]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "Reduce gameplay visual cost for better performance"
+
+[node name="ResolutionLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "Resolution (Windowed)"
+autowrap_mode = 3
+
+[node name="ResolutionOptionButton" type="OptionButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="LaneBrightnessRow" type="HBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="LaneBrightnessLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/LaneBrightnessRow"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Lane Brightness"
+autowrap_mode = 3
+
+[node name="LaneBrightnessValueLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/LaneBrightnessRow"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+text = "100%"
+horizontal_alignment = 2
+
+[node name="LaneBrightnessSlider" type="HSlider" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+max_value = 1.0
+step = 0.01
+value = 1.0
+
+[node name="NoteOpacityRow" type="HBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="NoteOpacityLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/NoteOpacityRow"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Note Opacity"
+autowrap_mode = 3
+
+[node name="NoteOpacityValueLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/NoteOpacityRow"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+text = "100%"
+horizontal_alignment = 2
+
+[node name="NoteOpacitySlider" type="HSlider" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+min_value = 0.5
+max_value = 1.0
+step = 0.01
+value = 1.0
+
+[node name="NotesLayeringLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+tooltip_text = "Choose whether scrolling notes draw behind or above the judgement buttons."
+mouse_filter = 0
+text = "Note Layering"
+autowrap_mode = 3
+
+[node name="NotesAboveJudgementButtonsCheckBox" type="CheckBox" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "Show notes above judgement buttons"
+
+[node name="HitEffectsLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "Hit Effects"
+autowrap_mode = 3
+
+[node name="HitEffectsOptionButton" type="OptionButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="JudgementDisplayLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+tooltip_text = "Choose whether judgement targets use the classic button layout or modern note-sized targets."
+text = "Judgement Display"
+autowrap_mode = 3
+
+[node name="JudgementDisplayOptionButton" type="OptionButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="InGameUILabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+tooltip_text = "Choose the visual style for score, multiplier, combo, and song information during gameplay."
+text = "In-game UI"
+autowrap_mode = 3
+
+[node name="InGameUIOptionButton" type="OptionButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="JudgementPopupsLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "Note Hit Status Popups"
+autowrap_mode = 3
+
+[node name="JudgementPopupsCheckBox" type="CheckBox" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+button_pressed = true
+text = "Enabled"
+
+[node name="DriveMeterThemeLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=1839327581]
+unique_name_in_owner = true
+layout_mode = 2
+tooltip_text = "Color theme of the drive meter (song-health indicator)"
+mouse_filter = 0
+text = "Drive Meter Color Scheme"
+autowrap_mode = 3
+
+[node name="DriveMeterThemeOptionButton" type="OptionButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=218746856]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="DriveMeterAccessibilityLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=1442219606]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Drive Meter Accessibility"
+
+[node name="ReduceDriveMeterCriticalFXCheckBox" type="CheckBox" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=1250680177]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Reduce critical pulsing and flashing"
+
+[node name="WindowModeLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=908717166]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+text = "Display Mode"
+
+[node name="WindowModeOptionButton" type="OptionButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=466023418]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="BindingsTitleLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=762129399]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+tooltip_text = "For keyboard users to change the keys mapped to each lane"
+mouse_filter = 0
+text = "Key Bindings"
+autowrap_mode = 3
+
+[node name="KeyboardLayoutLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+tooltip_text = "Choose which key-count layout to edit."
+mouse_filter = 0
+text = "Keyboard Layout"
+autowrap_mode = 3
+
+[node name="KeyboardLayoutOptionButton" type="OptionButton" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="BindingsVBox" type="VBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=934133755]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="ControllerBindingsTitleLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=582383057]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+tooltip_text = "For controller users to change the lane mappings"
+mouse_filter = 0
+text = "Controller Lane Bindings"
+autowrap_mode = 3
+
+[node name="ControllerBindingsVBox" type="VBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=1094250982]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="ControllerMenuBindingsTitleLabel" type="Label" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=310515767]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+tooltip_text = "For controller users to change the menu navigation button layout"
+mouse_filter = 0
+text = "Controller Menu Bindings"
+autowrap_mode = 3
+
+[node name="ControllerMenuBindingsVBox" type="VBoxContainer" parent="Center/Panel/PanelVBox/ContentScroll/Margin/VBox" unique_id=547581938]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="FooterMargin" type="MarginContainer" parent="Center/Panel/PanelVBox" unique_id=2011110901]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 20
+
+[node name="FooterVBox" type="VBoxContainer" parent="Center/Panel/PanelVBox/FooterMargin" unique_id=2011110902]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 8
+
+[node name="CaptureLabel" type="Label" parent="Center/Panel/PanelVBox/FooterMargin/FooterVBox" unique_id=1101056935]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+horizontal_alignment = 1
+
+[node name="Buttons" type="HBoxContainer" parent="Center/Panel/PanelVBox/FooterMargin/FooterVBox" unique_id=540981704]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 15
+alignment = 1
+
+[node name="SaveButton" type="Button" parent="Center/Panel/PanelVBox/FooterMargin/FooterVBox/Buttons" unique_id=95217770]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+text = "SAVE"
+
+[node name="ResetRecommendedDefaultsButton" type="Button" parent="Center/Panel/PanelVBox/FooterMargin/FooterVBox/Buttons"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+tooltip_text = "Reset options to the recommended defaults. Progression, scores, and purchases are not affected."
+text = "RESET DEFAULTS"
+
+[node name="BackActionButton" type="Button" parent="Center/Panel/PanelVBox/FooterMargin/FooterVBox/Buttons" unique_id=1772789185]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+text = "BACK"
+
+[node name="EMSGutterImageFileDialog" type="FileDialog" parent="." unique_id=2011110035]
+unique_name_in_owner = true
+title = "Open File(s)"
+file_mode = 1
+access = 2
+filters = PackedStringArray("*.png ; PNG Images", "*.jpg, *.jpeg ; JPEG Images", "*.webp ; WebP Images")
+
+[node name="ResetRecommendedDefaultsDialog" type="ConfirmationDialog" parent="."]
+unique_name_in_owner = true
+title = "Reset Options?"
+dialog_text = "Reset gameplay, audio, effects, graphics, display, and control settings to the recommended defaults? Progression, scores, purchases, and songs will not be affected."
+ok_button_text = "RESET"
+cancel_button_text = "CANCEL"
+
+[node name="BackButton" type="Button" parent="." unique_id=1047757501]
+z_index = 20
+layout_mode = 1
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 160.0
+offset_bottom = 64.0
+flat = true
+
+[node name="BackLabel" type="Label" parent="BackButton" unique_id=665379400]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 120.0
+offset_bottom = 20.0
+text = "← BACK"
+
+[connection signal="value_changed" from="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/LatencySlider" to="." method="_on_latency_slider_value_changed"]
+[connection signal="value_changed" from="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/ScrollSpeedSlider" to="." method="_on_scroll_speed_slider_value_changed"]
+[connection signal="value_changed" from="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/LaneWidthSlider" to="." method="_on_lane_width_slider_value_changed"]
+[connection signal="value_changed" from="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/LaneBrightnessSlider" to="." method="_on_lane_brightness_slider_value_changed"]
+[connection signal="value_changed" from="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/NoteOpacitySlider" to="." method="_on_note_opacity_slider_value_changed"]
+[connection signal="toggled" from="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/MissDuckingCheckBox" to="." method="_on_miss_ducking_check_box_toggled"]
+[connection signal="toggled" from="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/ThemeEffectsCheckBox" to="." method="_on_theme_effects_check_box_toggled"]
+[connection signal="toggled" from="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/PrioritizeFPSCheckBox" to="." method="_on_prioritize_fps_check_box_toggled"]
+[connection signal="item_selected" from="Center/Panel/PanelVBox/ContentScroll/Margin/VBox/WindowModeOptionButton" to="." method="_on_window_mode_option_button_item_selected"]
+[connection signal="pressed" from="Center/Panel/PanelVBox/FooterMargin/FooterVBox/Buttons/SaveButton" to="." method="_on_save_button_pressed"]
+[connection signal="pressed" from="Center/Panel/PanelVBox/FooterMargin/FooterVBox/Buttons/ResetRecommendedDefaultsButton" to="." method="_on_reset_recommended_defaults_button_pressed"]
+[connection signal="pressed" from="Center/Panel/PanelVBox/FooterMargin/FooterVBox/Buttons/BackActionButton" to="." method="_on_back_button_pressed"]
+[connection signal="confirmed" from="ResetRecommendedDefaultsDialog" to="." method="_on_reset_recommended_defaults_confirmed"]
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

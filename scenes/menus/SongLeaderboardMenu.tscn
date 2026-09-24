@@ -1,0 +1,119 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scenes/menus/SongLeaderboardMenu.gd" id="1"]
+
+[node name="SongLeaderboardMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="ColorRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SafeMargin" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="VBox" type="VBoxContainer" parent="SafeMargin"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/separation = 12
+
+[node name="BackButton" type="Button" parent="SafeMargin/VBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(180, 56)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_constants/h_separation = 8
+
+[node name="BackLabel" type="Label" parent="SafeMargin/VBox/BackButton"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 12.0
+offset_top = 14.0
+offset_right = 168.0
+offset_bottom = 42.0
+text = "← BACK"
+
+[node name="TitleLabel" type="Label" parent="SafeMargin/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "LEADERBOARD"
+horizontal_alignment = 1
+
+[node name="ArtistLabel" type="Label" parent="SafeMargin/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "ARTIST"
+horizontal_alignment = 1
+
+[node name="SelectorRow" type="HBoxContainer" parent="SafeMargin/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="DifficultyButton" type="Button" parent="SafeMargin/VBox/SelectorRow"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "DIFFICULTY • PROFESSIONAL"
+
+[node name="ModeButton" type="Button" parent="SafeMargin/VBox/SelectorRow"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "MODE • STEMS MAPPED"
+
+[node name="SourceButton" type="Button" parent="SafeMargin/VBox/SelectorRow"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "SOURCE • ONLINE"
+
+[node name="StatusLabel" type="Label" parent="SafeMargin/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Loading leaderboard..."
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Divider" type="ColorRect" parent="SafeMargin/VBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 1)
+layout_mode = 2
+
+[node name="ListScroll" type="ScrollContainer" parent="SafeMargin/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="RowsVBox" type="VBoxContainer" parent="SafeMargin/VBox/ListScroll"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 12
+
+[connection signal="pressed" from="SafeMargin/VBox/BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="SafeMargin/VBox/SelectorRow/DifficultyButton" to="." method="_on_difficulty_button_pressed"]
+[connection signal="pressed" from="SafeMargin/VBox/SelectorRow/ModeButton" to="." method="_on_mode_button_pressed"]
+[connection signal="pressed" from="SafeMargin/VBox/SelectorRow/SourceButton" to="." method="_on_source_button_pressed"]

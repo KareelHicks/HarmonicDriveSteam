@@ -1,0 +1,263 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scenes/menus/CalibrationMenu.gd" id="1"]
+
+[node name="CalibrationMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="ColorRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MidBand" type="ColorRect" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 560.0
+offset_bottom = 760.0
+grow_horizontal = 2
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 160.0
+offset_bottom = 64.0
+z_index = 20
+flat = true
+
+[node name="BackLabel" type="Label" parent="BackButton"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 120.0
+offset_bottom = 20.0
+text = "← BACK"
+
+[node name="HeaderBox" type="VBoxContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 420.0
+offset_top = 24.0
+offset_right = 980.0
+offset_bottom = 130.0
+theme_override_constants/separation = 8
+
+[node name="TitleLabel" type="Label" parent="HeaderBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "CALIBRATION"
+horizontal_alignment = 1
+
+[node name="SubtitleLabel" type="Label" parent="HeaderBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "TAP IN TIME WITH THE BEAT"
+horizontal_alignment = 1
+
+[node name="PulseWrap" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 580.0
+offset_top = 240.0
+offset_right = 760.0
+offset_bottom = 420.0
+
+[node name="PulseStack" type="Control" parent="PulseWrap"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(180, 180)
+layout_mode = 0
+offset_right = 180.0
+offset_bottom = 180.0
+
+[node name="OuterRing" type="Panel" parent="PulseWrap/PulseStack"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 180.0
+offset_bottom = 180.0
+
+[node name="TickLayer" type="Control" parent="PulseWrap/PulseStack"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 180.0
+offset_bottom = 180.0
+mouse_filter = 2
+
+[node name="PulseGlow" type="Panel" parent="PulseWrap/PulseStack"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 160.0
+offset_bottom = 160.0
+
+[node name="Pulse" type="Panel" parent="PulseWrap/PulseStack"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 28.0
+offset_top = 28.0
+offset_right = 152.0
+offset_bottom = 152.0
+
+[node name="CenterDot" type="Panel" parent="PulseWrap/PulseStack"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 82.0
+offset_top = 82.0
+offset_right = 98.0
+offset_bottom = 98.0
+
+[node name="BeatCenterLabel" type="Label" parent="PulseWrap/PulseStack"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 20.0
+offset_top = 68.0
+offset_right = 160.0
+offset_bottom = 112.0
+text = "START"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TargetButton" type="Button" parent="PulseWrap/PulseStack"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 180.0
+offset_bottom = 180.0
+flat = true
+
+[node name="InstructionCard" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 410.0
+offset_top = 470.0
+offset_right = 930.0
+offset_bottom = 686.0
+
+[node name="InstructionMargin" type="MarginContainer" parent="InstructionCard"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/margin_left = 28
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 28
+theme_override_constants/margin_bottom = 24
+
+[node name="InstructionVBox" type="VBoxContainer" parent="InstructionCard/InstructionMargin"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="CardTitleLabel" type="Label" parent="InstructionCard/InstructionMargin/InstructionVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "AUDIO CALIBRATION"
+horizontal_alignment = 1
+
+[node name="CardBodyLabel" type="Label" parent="InstructionCard/InstructionMargin/InstructionVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "A beat will play at 120 BPM.\nTap the center circle each time you hear the click.\nAfter 8 taps your offset is saved."
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="CardOffsetLabel" type="Label" parent="InstructionCard/InstructionMargin/InstructionVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "CURRENT OFFSET  0 ms"
+horizontal_alignment = 1
+
+[node name="CardButtons" type="HBoxContainer" parent="InstructionCard/InstructionMargin/InstructionVBox"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="OkayButton" type="Button" parent="InstructionCard/InstructionMargin/InstructionVBox/CardButtons"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "OKAY"
+
+[node name="StartButton" type="Button" parent="InstructionCard/InstructionMargin/InstructionVBox/CardButtons"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "START"
+
+[node name="ResetButton" type="Button" parent="InstructionCard/InstructionMargin/InstructionVBox/CardButtons"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+text = "RESET TO 0 MS"
+
+[node name="ProgressWrap" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 536.0
+offset_top = 820.0
+offset_right = 804.0
+offset_bottom = 844.0
+
+[node name="ProgressDots" type="HBoxContainer" parent="ProgressWrap"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 268.0
+offset_bottom = 24.0
+alignment = 1
+theme_override_constants/separation = 12
+
+[node name="TapCountLabel" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 360.0
+offset_top = 860.0
+offset_right = 980.0
+offset_bottom = 892.0
+text = "0 / 8 TAPS"
+horizontal_alignment = 1
+
+[node name="StatusLabel" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 300.0
+offset_top = 896.0
+offset_right = 1040.0
+offset_bottom = 928.0
+text = "Use the metronome to line up your taps."
+horizontal_alignment = 1
+
+[node name="BottomActions" type="VBoxContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 370.0
+offset_top = 936.0
+offset_right = 970.0
+offset_bottom = 1050.0
+theme_override_constants/separation = 12
+
+[node name="RunningHintLabel" type="Label" parent="BottomActions"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Tap the center target on every click."
+horizontal_alignment = 1
+
+[node name="BottomResetButton" type="Button" parent="BottomActions"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "RESET TO 0 MS"
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="PulseWrap/PulseStack/TargetButton" to="." method="_on_target_button_pressed"]
+[connection signal="pressed" from="InstructionCard/InstructionMargin/InstructionVBox/CardButtons/OkayButton" to="." method="_on_okay_button_pressed"]
+[connection signal="pressed" from="InstructionCard/InstructionMargin/InstructionVBox/CardButtons/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="InstructionCard/InstructionMargin/InstructionVBox/CardButtons/ResetButton" to="." method="_on_reset_button_pressed"]
+[connection signal="pressed" from="BottomActions/BottomResetButton" to="." method="_on_bottom_reset_button_pressed"]
