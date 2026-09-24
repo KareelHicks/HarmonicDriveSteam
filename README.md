@@ -1,4 +1,4 @@
-Harmonic Drive is an arcade-style rhythm game centered around reactive visuals, customizable charts, community-created content, multiplayer, score chasing, and electronic music.
+https://store.steampowered.com/app/4709930/Harmonic_Drive/Harmonic Drive is an arcade-style rhythm game centered around reactive visuals, customizable charts, community-created content, multiplayer, score chasing, and electronic music.
 
 The source code is open so developers, rhythm-game players, modders, artists, and other contributors can help shape where Harmonic Drive goes next.
 
